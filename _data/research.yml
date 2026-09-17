@@ -1,0 +1,48 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# In2Lab research lines
+# Fields:
+#   icon        – emoji used as the card icon (decorative)
+#   title       – short title shown as the card heading
+#   description – one-to-two sentence description of the line
+# ─────────────────────────────────────────────────────────────────────────────
+
+- icon:        "🧠"
+  title:       "Machine Learning & Pattern Recognition"
+  description: >
+    Statistical learning, deep neural networks, generative models, and pattern
+    analysis applied to structured and unstructured data across diverse
+    application domains.
+
+- icon:        "💓"
+  title:       "Biomedical Signal Processing"
+  description: >
+    Analysis of physiological signals — EEG, ECG, voice, pathological sounds,
+    and medical images — to support clinical diagnosis, monitoring, and
+    translational research.
+
+- icon:        "🗣️"
+  title:       "Speech & Language Technologies"
+  description: >
+    Automatic speech recognition, speaker profiling, pathological speech
+    analysis, and natural language processing tailored to the linguistic
+    diversity of Colombian Spanish.
+
+- icon:        "👁️"
+  title:       "Computer Vision & Image Analysis"
+  description: >
+    Image classification, object detection, medical image interpretation, and
+    visual inspection systems powered by convolutional and transformer-based
+    architectures.
+
+- icon:        "🔒"
+  title:       "Information Security"
+  description: >
+    Cybersecurity, intrusion detection, vulnerability analysis, and
+    privacy-preserving machine learning for robust and trustworthy information
+    systems.
+
+- icon:        "⚙️"
+  title:       "Intelligent Decision Systems"
+  description: >
+    Multi-agent systems, optimization, autonomous control, and decision-support
+    tools for applications in industry, healthcare, and education.

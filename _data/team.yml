@@ -1,0 +1,115 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# In2Lab team members
+# Fields:
+#   name     – display name
+#   role     – Spanish role label shown on the card
+#   degree   – highest degree (or degrees) with institution and year
+#   affil    – appointment type and start year
+#   coord    – true only for the group coordinator
+#   scholar  – full Google Scholar profile URL (null if not yet linked)
+#   web      – personal/institutional page URL (null if not yet linked)
+# ─────────────────────────────────────────────────────────────────────────────
+
+- name:    "Julián D. Arias-Londoño"
+  role:    "Coordinator"
+  degree:  "PhD Automática (UNAL) · PhD Ing. Sistemas (UPM)"
+  affil:   "Professor · since 2009"
+  coord:   true
+  scholar: "https://scholar.google.com/citations?user=ZTdSU3wAAAAJ"
+  web:     null
+
+- name:    "Luz Viviana Cobaleda E."
+  role:    "Researcher"
+  degree:  "PhD Ing. Electrónica (UdeA, 2017 · Cum Laude)"
+  affil:   "Professor · since 2022"
+  coord:   false
+  scholar: null   # TODO: add Google Scholar URL
+  web:     null
+
+- name:    "Ana Lucía Pérez Patiño"
+  role:    "Researcher"
+  degree:  "PhD Ingeniería (UNAL, 2012)"
+  affil:   "Professor · since 2013"
+  coord:   false
+  scholar: null   # TODO: add Google Scholar URL
+  web:     null
+
+- name:    "Carlos A. Mera Banguero"
+  role:    "Researcher"
+  degree:  "PhD Ing. Sistemas (UNAL, 2017)"
+  affil:   "Professor · since 2023"
+  coord:   false
+  scholar: "https://scholar.google.com/citations?user=YjBUdJYAAAAJ"
+  web:     null
+
+- name:    "Danny A. Múnera Ramírez"
+  role:    "Researcher"
+  degree:  "PhD Informatique (U. Paris I, 2016)"
+  affil:   "Professor · since 2009"
+  coord:   false
+  scholar: null   # TODO: add Google Scholar URL
+  web:     null
+
+- name:    "Diego J.L. Botia Valderrama"
+  role:    "Researcher"
+  degree:  "PhD Ing. Electrónica (UdeA, 2015)"
+  affil:   "Professor · since 2014"
+  coord:   false
+  scholar: "https://scholar.google.com/citations?user=wzUb7TAAAAAJ"
+  web:     null
+
+- name:    "Gina P. Maestre Góngora"
+  role:    "Researcher"
+  degree:  "PhD Ing. Sistemas (U. Norte, 2018)"
+  affil:   "Professor · since 2023"
+  coord:   false
+  scholar: "https://scholar.google.com/citations?user=-EfDLGsAAAAJ"
+  web:     null
+
+- name:    "Raúl Ramos Pollán"
+  role:    "Researcher"
+  degree:  "PhD Informática (U. Porto, 2011)"
+  affil:   "Professor · since 2018"
+  coord:   false
+  scholar: "https://scholar.google.com/citations?user=QObKt9IAAAAJ"
+  web:     null
+
+- name:    "M. Bernarda Salazar Sánchez"
+  role:    "Researcher"
+  degree:  "PhD Ing. Electrónica (UdeA, 2018)"
+  affil:   "Visiting professor · since 2022"
+  coord:   false
+  scholar: "https://scholar.google.com/citations?user=SY3ZiQ0AAAAJ"
+  web:     null
+
+- name:    "Katerine Marceles Villalba"
+  role:    "Researcher"
+  degree:  "MSc Seguridad Informática (U. La Rioja, 2016)"
+  affil:   "Professor · since 2023"
+  coord:   false
+  scholar: null   # TODO: add Google Scholar URL
+  web:     null
+
+- name:    "Javier F. Botia Valderrama"
+  role:    "Researcher"
+  degree:  "PhD Ing. Electrónica (UdeA, 2016 · Cum Laude)"
+  affil:   "Visiting professor · since 2024"
+  coord:   false
+  scholar: null   # TODO: add Google Scholar URL
+  web:     null
+
+- name:    "A.J. Tamayo Herrera"
+  role:    "Researcher"
+  degree:  "PhD Cs. Computación (IPN México, 2023)"
+  affil:   "Visiting professor · since 2025"
+  coord:   false
+  scholar: "https://scholar.google.com/citations?user=643heS8AAAAJ"
+  web:     null
+
+- name:    "Gabriel D. Uribe Guerra"
+  role:    "Researcher"
+  degree:  "MSc Matemáticas (U. Puerto Rico, 2008)"
+  affil:   "Lecturer · since 2022"
+  coord:   false
+  scholar: null   # TODO: add Google Scholar URL
+  web:     null

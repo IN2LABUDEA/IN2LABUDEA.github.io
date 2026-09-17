@@ -1,0 +1,38 @@
+title: In2Lab
+description: >
+  Intelligent Information Systems Laboratory — Universidad de Antioquia,
+  Facultad de Ingeniería, Medellín, Colombia.
+url: "https://in2labudea.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: null            # no gem theme; we use our own layout
+
+# Exclusions
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+# Site-wide defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Links used across the site
+links:
+  github:    https://github.com/IN2LABUDEA
+  gruplac:   https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000712
+  email:     julian.ariasl@udea.edu.co
+  udea_eng:  https://ingenieria.udea.edu.co
+
+# Stats shown in the hero section
+stats:
+  researchers: 13
+  phds: 11
+  research_lines: 6
+  active_since: 2009

@@ -1,0 +1,31 @@
+<section id="team" aria-labelledby="team-h">
+  <div class="wrap">
+    <span class="eyebrow">Our people</span>
+    <h2 class="sec-heading" id="team-h">Research team</h2>
+    <p class="team-intro">Thirteen researchers with expertise spanning machine learning, signal processing, cybersecurity, and intelligent systems — supported by an active community of PhD, MSc, and undergraduate students.</p>
+    <div class="team-grid" role="list">
+      {% for member in site.data.team %}
+      <article class="m-card{% if member.coord %} coord{% endif %}" role="listitem">
+        <div class="m-name">{{ member.name }}</div>
+        <div class="m-role">{{ member.role }}</div>
+        <div class="m-degree">{{ member.degree }}</div>
+        <div class="m-since">{{ member.affil }}</div>
+        <div class="m-links">
+          {% if member.scholar %}
+          <a href="{{ member.scholar }}" target="_blank" rel="noopener"
+             class="m-link" aria-label="Google Scholar profile of {{ member.name }}">Scholar ↗</a>
+          {% else %}
+          <span class="m-link ph" title="Google Scholar not yet linked">Scholar —</span>
+          {% endif %}
+          {% if member.web %}
+          <a href="{{ member.web }}" target="_blank" rel="noopener"
+             class="m-link" aria-label="Personal page of {{ member.name }}">Web ↗</a>
+          {% else %}
+          <span class="m-link ph" title="Personal page not yet linked">Web —</span>
+          {% endif %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

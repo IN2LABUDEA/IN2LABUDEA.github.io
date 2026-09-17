@@ -1,0 +1,15 @@
+<section id="research" aria-labelledby="research-h">
+  <div class="wrap">
+    <span class="eyebrow">What we do</span>
+    <h2 class="sec-heading" id="research-h">Research lines</h2>
+    <div class="research-grid">
+      {% for line in site.data.research %}
+      <article class="r-card">
+        <span class="r-icon" aria-hidden="true">{{ line.icon }}</span>
+        <h3>{{ line.title }}</h3>
+        <p>{{ line.description }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
