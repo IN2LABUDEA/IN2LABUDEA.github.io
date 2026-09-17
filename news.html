@@ -1,0 +1,34 @@
+---
+layout: default
+title: News
+---
+<div class="page-header">
+  <div class="container">
+    <h1>News</h1>
+  </div>
+</div>
+
+<div class="main-content">
+  <div class="container">
+    {% if site.posts.size == 0 %}
+    <p style="color:#888">No news posts yet. Check back soon, or see our
+      <a href="{{ site.links.github }}" target="_blank" rel="noopener">GitHub</a> for project activity.</p>
+    {% else %}
+    <ul class="news-list">
+      {% for post in site.posts %}
+      <li>
+        <span class="news-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span>
+          {% if post.shortnews %}
+            {{ post.content | strip_html }}
+          {% else %}
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            — {{ post.excerpt | strip_html | truncatewords: 20 }}
+          {% endif %}
+        </span>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+</div>

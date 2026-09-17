@@ -1,8 +1,126 @@
 ---
 layout: default
 ---
-{% include hero.html %}
-{% include about.html %}
-{% include research.html %}
-{% include team.html %}
-{% include contact.html %}
+<!-- HOME BANNER -->
+<div class="home-banner">
+  <div class="container">
+    <p class="group-name">Intelligent Information Systems Laboratory</p>
+    <p class="group-tagline">Machine learning, signal processing, computer vision, and intelligent systems — Universidad de Antioquia, Medellín, Colombia.</p>
+    <p class="group-meta">
+      Faculty of Engineering ·
+      <a href="{{ site.links.gruplac }}" target="_blank" rel="noopener">GrupLAC</a> ·
+      Coordinator: Prof. Julián D. Arias-Londoño
+    </p>
+  </div>
+</div>
+
+<!-- MAIN CONTENT: two-column layout -->
+<div class="main-content">
+  <div class="container">
+    <div class="row">
+
+      <!-- LEFT: News + Research highlights -->
+      <div class="col-8">
+
+        <!-- NEWS -->
+        <h2 class="section-heading">News</h2>
+        <ul class="news-list">
+          {% for post in site.posts limit:6 %}
+          <li>
+            <span class="news-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <span>
+              {% if post.shortnews %}
+                {{ post.content | strip_html | truncatewords: 30 }}
+              {% else %}
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              {% endif %}
+            </span>
+          </li>
+          {% endfor %}
+        </ul>
+        {% if site.posts.size > 0 %}
+        <p><a href="{{ '/news/' | relative_url }}">All news →</a></p>
+        {% endif %}
+
+        <hr>
+
+        <!-- RESEARCH LINES -->
+        <h2 class="section-heading">Research</h2>
+        <ul class="research-list">
+          {% for line in site.data.research %}
+          <li class="research-item">
+            <span class="research-icon">{{ line.icon }}</span>
+            <div class="research-body">
+              <h4>{{ line.title }}</h4>
+              <p>{{ line.desc }}</p>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+        <p><a href="{{ '/research/' | relative_url }}">All research lines →</a></p>
+
+      </div><!-- /col-8 -->
+
+      <!-- RIGHT: Sidebar -->
+      <div class="col-4">
+
+        <div class="sidebar-logo">
+          <img src="{{ '/assets/img/logo.png' | relative_url }}"
+               alt="IngySoft · Universidad de Antioquia">
+        </div>
+
+        <!-- Quick stats -->
+        <h2 class="section-heading">At a glance</h2>
+        <div class="stats-row" style="gap:1.25rem;margin-bottom:1.25rem">
+          <div class="stat-box">
+            <span class="stat-number">13</span>
+            <span class="stat-label">Researchers</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-number">11</span>
+            <span class="stat-label">PhDs</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-number">6</span>
+            <span class="stat-label">Research lines</span>
+          </div>
+        </div>
+
+        <!-- Info table -->
+        <h2 class="section-heading">About</h2>
+        <table class="info-table">
+          <tr>
+            <th>University</th>
+            <td>Universidad de Antioquia (UdeA)</td>
+          </tr>
+          <tr>
+            <th>Faculty</th>
+            <td>Facultad de Ingeniería</td>
+          </tr>
+          <tr>
+            <th>Location</th>
+            <td>Medellín, Colombia</td>
+          </tr>
+          <tr>
+            <th>Active since</th>
+            <td>2009</td>
+          </tr>
+          <tr>
+            <th>GrupLAC</th>
+            <td><a href="{{ site.links.gruplac }}" target="_blank" rel="noopener">MinCiencias profile ↗</a></td>
+          </tr>
+          <tr>
+            <th>GitHub</th>
+            <td><a href="{{ site.links.github }}" target="_blank" rel="noopener">IN2LABUDEA ↗</a></td>
+          </tr>
+          <tr>
+            <th>Contact</th>
+            <td><a href="mailto:{{ site.links.email }}">{{ site.links.email }}</a></td>
+          </tr>
+        </table>
+
+      </div><!-- /col-4 -->
+
+    </div><!-- /row -->
+  </div><!-- /container -->
+</div><!-- /main-content -->

@@ -1,0 +1,45 @@
+---
+layout: default
+title: People
+---
+<div class="page-header">
+  <div class="container">
+    <h1>People</h1>
+    <p class="lead">13 faculty researchers, supported by PhD, MSc, and undergraduate students.</p>
+  </div>
+</div>
+
+<div class="main-content">
+  <div class="container">
+
+    <!-- Coordinator -->
+    {% assign coord = site.data.people | where: "role", "coord" %}
+    {% if coord.size > 0 %}
+    <h2 class="section-heading">Coordinator</h2>
+    <div class="people-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))">
+      {% for person in coord %}
+      {% include person-card.html person=person %}
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <!-- Researchers -->
+    {% assign researchers = site.data.people | where: "role", "researcher" %}
+    {% if researchers.size > 0 %}
+    <h2 class="section-heading" style="margin-top:2rem">Researchers</h2>
+    <div class="people-grid">
+      {% for person in researchers %}
+      {% include person-card.html person=person %}
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <hr>
+    <p style="color:#666;font-size:.9rem">
+      We are always looking for motivated PhD and MSc students.
+      If you are interested in joining In2Lab, please
+      <a href="mailto:{{ site.links.email }}">contact us</a>.
+    </p>
+
+  </div>
+</div>

@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="page-header">
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+  </div>
+</div>
+<div class="main-content">
+  <div class="container">
+    <div class="row">
+      <div class="col-8">
+        <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}</p>
+        <div class="post-body">
+          {{ content }}
+        </div>
+        <p style="margin-top:1.5rem">
+          <a href="{{ '/' | relative_url }}">← Back to home</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

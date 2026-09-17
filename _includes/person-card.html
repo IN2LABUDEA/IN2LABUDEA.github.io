@@ -1,0 +1,24 @@
+<article class="person-card{% if person.role == 'coord' %} coordinator{% endif %}">
+  <div class="person-name">{{ person.name }}</div>
+  {% if person.role == 'coord' %}
+  <div class="person-role">Coordinator</div>
+  {% else %}
+  <div class="person-role">Researcher</div>
+  {% endif %}
+  <div class="person-degree">{{ person.degree }}</div>
+  <div class="person-affil">{{ person.affil }}</div>
+  <div class="person-links">
+    {% if person.scholar %}
+    <a href="{{ person.scholar }}" class="person-link" target="_blank" rel="noopener"
+       aria-label="Google Scholar profile of {{ person.name }}">Scholar ↗</a>
+    {% else %}
+    <span class="person-link unavailable">Scholar</span>
+    {% endif %}
+    {% if person.web %}
+    <a href="{{ person.web }}" class="person-link" target="_blank" rel="noopener"
+       aria-label="Personal page of {{ person.name }}">Web ↗</a>
+    {% else %}
+    <span class="person-link unavailable">Web</span>
+    {% endif %}
+  </div>
+</article>

@@ -1,86 +1,96 @@
 # IN2LABUDEA.github.io
 
-Static website for the **In2Lab** research group at Universidad de Antioquia, built with [Jekyll](https://jekyllrb.com/) and hosted via **GitHub Pages**.
+Jekyll website for the **In2Lab** research group at Universidad de Antioquia.
+Academic style inspired by [uwsampa/research-group-web](https://github.com/uwsampa/research-group-web).
 
-## Quick start (local preview)
+## Quick start
 
 ```bash
 gem install bundler
 bundle install
 bundle exec jekyll serve
-# open http://localhost:4000
+# → http://localhost:4000
 ```
 
 ## Updating content
 
-All editable content lives in `_data/` and `_includes/`. You **never** need to touch HTML to update team members or research lines.
+### Team members → `_data/people.yml`
 
-### Add or update a team member → `_data/team.yml`
-
-Each entry has these fields:
-
-| Field    | Required | Description |
-|----------|----------|-------------|
-| `name`   | ✅ | Full display name |
-| `role`   | ✅ | Role label (e.g. `Researcher`, `Coordinator`) |
-| `degree` | ✅ | Highest degree(s) with institution and year |
-| `affil`  | ✅ | Appointment type and start year |
-| `coord`  | ✅ | `true` only for the group coordinator |
-| `scholar`| ✅ | Google Scholar profile URL, or `null` |
-| `web`    | ✅ | Personal/institutional page URL, or `null` |
-
-Example — add a new member at the end of the file:
+Add a new entry at the bottom:
 
 ```yaml
-- name:    "New Researcher"
-  role:    "Researcher"
+- name:    "New Person"
+  role:    researcher          # coord | researcher
   degree:  "PhD Computer Science (MIT, 2024)"
   affil:   "Postdoc · since 2025"
-  coord:   false
   scholar: "https://scholar.google.com/citations?user=XXXXXXXXX"
   web:     null
 ```
 
-To fill in a missing Scholar link, change `null` to the full URL.
+Set `scholar:` or `web:` to `null` if the link isn't available yet.
 
-### Add or update a research line → `_data/research.yml`
+### Research lines → `_data/research.yml`
 
-Each entry has `icon` (emoji), `title`, and `description`.
+Each entry has `icon` (emoji), `title`, and `desc`.
+
+### News → `_posts/`
+
+Short one-liner updates:
+```markdown
+---
+layout: post
+shortnews: true
+---
+Your news text here.
+```
+
+Full blog posts:
+```markdown
+---
+layout: post
+title: "Paper accepted at ICASSP 2027"
+---
+We are happy to announce ...
+```
+
+File name must follow `YYYY-MM-DD-slug.md`.
 
 ### Site-wide settings → `_config.yml`
 
-- `links.*` — GitHub org, GrupLAC, email, UdeA engineering
-- `stats.*` — hero section numbers (researchers, PhDs, research lines, active since)
+- `links.*` — GitHub org, GrupLAC, email, UdeA pages
+- `title`, `tagline`, `description` — metadata
 
 ## File structure
 
 ```
 IN2LABUDEA.github.io/
-├── _config.yml             ← site settings, links, stats
-├── Gemfile                 ← github-pages gem dependency
-├── index.html              ← front matter + include calls only
-├── README.md               ← this file
+├── _config.yml            ← site settings
+├── Gemfile
+├── index.html             ← home page (news + research + sidebar)
+├── research.html          ← research lines page
+├── people.html            ← people grid page
+├── news.html              ← full news archive
+├── README.md
 ├── _layouts/
-│   └── default.html        ← HTML skeleton (head, fonts, script tags)
+│   ├── default.html       ← HTML skeleton
+│   └── post.html          ← news/blog post page
 ├── _includes/
-│   ├── nav.html            ← sticky navigation bar
-│   ├── hero.html           ← animated hero section
-│   ├── about.html          ← about the group + info sidebar
-│   ├── research.html       ← research lines (loops over _data/research.yml)
-│   ├── team.html           ← team grid (loops over _data/team.yml)
-│   ├── contact.html        ← contact section
-│   └── footer.html         ← footer
+│   ├── nav.html           ← navigation bar
+│   ├── footer.html        ← footer
+│   └── person-card.html   ← reusable member card
+├── _posts/                ← news items and blog posts
 ├── _data/
-│   ├── team.yml            ← 13 researchers — EDIT HERE to update the team
-│   └── research.yml        ← 6 research lines — EDIT HERE to update topics
+│   ├── people.yml         ← team members — EDIT HERE
+│   └── research.yml       ← research lines — EDIT HERE
 └── assets/
-    ├── css/main.css        ← all styles (tokens, layout, components)
-    ├── js/main.js          ← canvas animation + mobile nav
-    └── img/logo.png        ← IngySoft / Universidad de Antioquia logo
+    ├── css/main.css
+    ├── js/main.js
+    └── img/logo.png
 ```
 
 ## Deployment
 
-Push to the `main` branch of `IN2LABUDEA/IN2LABUDEA.github.io`. GitHub Pages builds automatically with Jekyll. The site will be live at `https://in2labudea.github.io`.
-
-Enable Pages in **Settings → Pages → Source: Deploy from a branch → main / root**.
+1. Create repo `IN2LABUDEA/IN2LABUDEA.github.io` on GitHub.
+2. Push all files to `main`.
+3. Settings → Pages → Source: Deploy from branch → **main / root**.
+4. Site is live at `https://in2labudea.github.io`.

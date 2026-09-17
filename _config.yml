@@ -1,38 +1,47 @@
-title: In2Lab
+title:       "In2Lab"
+tagline:     "Intelligent Information Systems Laboratory"
 description: >
-  Intelligent Information Systems Laboratory — Universidad de Antioquia,
-  Facultad de Ingeniería, Medellín, Colombia.
-url: "https://in2labudea.github.io"
+  Research group at the Faculty of Engineering, Universidad de Antioquia.
+  We develop machine learning methods and intelligent systems that advance
+  science and society.
+
+url:     "https://in2labudea.github.io"
 baseurl: ""
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
-theme: null            # no gem theme; we use our own layout
+# Links
+links:
+  github:   https://github.com/IN2LABUDEA
+  gruplac:  https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000712
+  email:    julian.ariasl@udea.edu.co
+  udea:     https://www.udea.edu.co
+  udea_eng: https://ingenieria.udea.edu.co
 
-# Exclusions
+# Roles control display order in the People page
+roles:
+  - name: Coordinator
+    tag:  coord
+  - name: Researchers
+    tag:  researcher
+
+# Build
+markdown:  kramdown
+highlighter: rouge
+theme: null
+permalink: /news/:year/:month/:day/:title/
+
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - Makefile
 
-# Site-wide defaults
 defaults:
   - scope:
       path: ""
     values:
       layout: default
-
-# Links used across the site
-links:
-  github:    https://github.com/IN2LABUDEA
-  gruplac:   https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000712
-  email:     julian.ariasl@udea.edu.co
-  udea_eng:  https://ingenieria.udea.edu.co
-
-# Stats shown in the hero section
-stats:
-  researchers: 13
-  phds: 11
-  research_lines: 6
-  active_since: 2009
+  - scope:
+      path: "_posts"
+      type:  posts
+    values:
+      layout: post
