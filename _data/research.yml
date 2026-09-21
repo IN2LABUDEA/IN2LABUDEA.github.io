@@ -2,22 +2,22 @@
 
 - icon:  "🤖"
   title: "Intelligent Information Systems"
-  desc:  > Research on the design and development of intelligent information systems using artificial intelligence, including machine learning, deep learning, pattern recognition, signal and image processing, computer vision, recommender systems, intelligent agents, and natural language processing to extract knowledge, automate tasks, and support complex decision-making processes.
+  desc: "Research on the design and development of intelligent information systems using artificial intelligence, including machine learning, deep learning, pattern recognition, signal and image processing, computer vision, recommender systems, intelligent agents, and natural language processing to extract knowledge, automate tasks, and support complex decision-making processes."
 
 - icon:  "📊"
   title: "Data Science, Analytics and Big Data"
-  desc:  > Research on methods and technologies for collecting, managing, processing, analyzing, and visualizing large volumes of data, including data mining and supervised and unsupervised learning, to discover patterns, generate knowledge, and provide evidence-based support for organizational decision-making and strategic planning activities.
+  desc: "Research on methods and technologies for collecting, managing, processing, analyzing, and visualizing large volumes of data, including data mining and supervised and unsupervised learning, to discover patterns, generate knowledge, and provide evidence-based support for organizational decision-making and strategic planning activities."
 
 - icon:  "☁️"
   title: "Software Architecture and Distributed Systems"
-  desc:  > Research on the design and development of software architectures and distributed systems, including microservices, cloud-native platforms, high-performance computing, resilient architectures, and cybersecurity mechanisms, to enable scalable, efficient, reliable, and secure operation of complex computational services and applications across diverse environments.
+  desc: "Research on the design and development of software architectures and distributed systems, including microservices, cloud-native platforms, high-performance computing, resilient architectures, and cybersecurity mechanisms, to enable scalable, efficient, reliable, and secure operation of complex computational services and applications across diverse environments."
 
 - icon:  "🛡️"
   title: "Data Governance and Interoperability"
-  desc:  > Research on models, methods, and standards for ensuring data quality and interoperability across heterogeneous systems, while addressing data management, information exchange, ethical principles, privacy, security, and responsible governance in the collection, integration, sharing, and use of large-scale data across organizations.
+  desc: "Research on models, methods, and standards for ensuring data quality and interoperability across heterogeneous systems, while addressing data management, information exchange, ethical principles, privacy, security, and responsible governance in the collection, integration, sharing, and use of large-scale data across organizations."
 
 - icon:  "🔄"
   title: "Digital Transformation and Intelligent Organizations"
-  desc:  > Research on strategies, models, and technologies for digital transformation and intelligent organizations, including technology adoption, digital maturity assessment, process automation, and robotic process automation, to improve organizational capabilities, operational efficiency, service delivery, and innovation in public and private organizations.
+  desc: "Research on strategies, models, and technologies for digital transformation and intelligent organizations, including technology adoption, digital maturity assessment, process automation, and robotic process automation, to improve organizational capabilities, operational efficiency, service delivery, and innovation in public and private organizations."
     
     
