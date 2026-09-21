@@ -18,6 +18,15 @@
   pdf:     https://journals.sagepub.com/doi/pdf/10.1177/20552076261420932
   code:    null
 
+- title:   "Aggrecan and polymeric immunoglobulin receptor in extracellular vesicles of patients with seropositive rheumatoid arthritis"
+  authors: "Castaño-López S., Lopera T.J., Restrepo V., Carbal L.F., Ramírez-Mejía J.M., Hernández A., Gil D., Díaz J.-C. , Manrique-Moreno M., Barazzuol L., Posada-Duque R., Rojas M., Vásquez G., Corrales-Garcia L., Arias-Londoño J.D., Wolters J.C., Castaño D."
+  venue:   "Journal of Translational Autoimmunity"
+  year:    2026
+  type:    journal
+  tags:    [data science, omics, biomedical, healthcare]
+  doi:     10.1016/j.jtauto.2026.100387     # replace with real DOI
+  pdf:     https://www.sciencedirect.com/science/article/pii/S2589909026000407/pdfft?md5=8f776c42b5b9c6c56e096a25a2f12a62&pid=1-s2.0-S2589909026000407-main.pdf
+  code:    null
 
 - title:   "Speaker Age and Dialect Classification for Colombian Spanish Using x-Vectors"
   authors: "Arias-Londoño JD, Pérez-Patiño AL, Múnera-Ramírez DA"
@@ -28,6 +37,7 @@
   doi:     null
   pdf:     null
   code:    null
+
 
 
 - title:   "Feed formulation using multi-objective Bayesian optimization"
