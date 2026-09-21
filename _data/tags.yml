@@ -1,0 +1,60 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Tag taxonomy for In2Lab
+#
+# type: "line"  → research line (green palette, solid)
+# type: "area"  → application area (teal palette, outlined)
+#
+# These IDs are referenced in _data/projects.yml, publications.yml,
+# and students.yml under the `tags:` field.
+# The CSS in assets/css/main.css defines one color rule per id.
+# ─────────────────────────────────────────────────────────────────────────────
+
+lines:
+  - id:    ml
+    label: "Machine Learning"
+    title: "Machine Learning & Pattern Recognition"
+
+  - id:    biomedical
+    label: "Biomedical Signals"
+    title: "Biomedical Signal Processing"
+
+  - id:    speech
+    label: "Speech & Language"
+    title: "Speech & Language Technologies"
+
+  - id:    vision
+    label: "Computer Vision"
+    title: "Computer Vision & Image Analysis"
+
+  - id:    security
+    label: "Information Security"
+    title: "Information Security"
+
+  - id:    decision
+    label: "Decision Systems"
+    title: "Intelligent Decision Systems"
+
+areas:
+  - id:    healthcare
+    label: "Healthcare"
+
+  - id:    industry
+    label: "Industry"
+
+  - id:    education
+    label: "Education"
+
+  - id:    cyberdef
+    label: "Cyber Defense"
+
+  - id:    language-society
+    label: "Language & Society"
+
+  - id:    environment
+    label: "Environment"
+
+  - id:    agriculture
+    label: "Agriculture"
+
+  - id:    finance
+    label: "Finance"

@@ -1,0 +1,109 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Publications
+#
+# type:    journal | conference | book-chapter | patent | software
+# tags:    list of tag ids from _data/tags.yml
+# doi:     DOI string only, e.g. "10.1016/j.csl.2024.101234" (no URL prefix)
+# pdf:     relative path or full URL to open-access PDF (optional)
+# code:    GitHub/Zenodo URL (optional)
+# ─────────────────────────────────────────────────────────────────────────────
+
+- title:   "Dysphonia Detection from Sustained Vowels Using Self-Supervised Speech Representations"
+  authors: "Arias-Londoño JD, Salazar-Sánchez MB, Botia-Valderrama DJL"
+  venue:   "Speech Communication"
+  year:    2025
+  type:    journal
+  tags:    [ml, biomedical, speech, healthcare]
+  doi:     null     # replace with real DOI
+  pdf:     null
+  code:    null
+
+- title:   "Federated Anomaly Detection for Industrial IoT with Non-IID Data"
+  authors: "Mera-Banguero CA, Marceles-Villalba K, Botia-Valderrama JF"
+  venue:   "IEEE Transactions on Industrial Informatics"
+  year:    2025
+  type:    journal
+  tags:    [ml, security, industry, cyberdef]
+  doi:     null
+  pdf:     null
+  code:    null
+
+- title:   "Retinal Lesion Segmentation with Vision Transformers: A Benchmark on Colombian Fundus Data"
+  authors: "Ramos-Pollán R, Botia-Valderrama DJL, Cobaleda-E LV"
+  venue:   "Medical Image Analysis"
+  year:    2024
+  type:    journal
+  tags:    [ml, vision, biomedical, healthcare]
+  doi:     null
+  pdf:     null
+  code:    "https://github.com/IN2LABUDEA"
+
+- title:   "Speaker Age and Dialect Classification for Colombian Spanish Using x-Vectors"
+  authors: "Arias-Londoño JD, Pérez-Patiño AL, Múnera-Ramírez DA"
+  venue:   "INTERSPEECH 2024"
+  year:    2024
+  type:    conference
+  tags:    [ml, speech, language-society]
+  doi:     null
+  pdf:     null
+  code:    null
+
+- title:   "Explainable Predictive Maintenance via Shapley-Value Attribution on Vibration Signals"
+  authors: "Mera-Banguero CA, Tamayo-Herrera AJ"
+  venue:   "Mechanical Systems and Signal Processing"
+  year:    2024
+  type:    journal
+  tags:    [ml, decision, biomedical, industry]
+  doi:     null
+  pdf:     null
+  code:    null
+
+- title:   "Lightweight Intrusion Detection with Quantized Neural Networks for Edge Devices"
+  authors: "Marceles-Villalba K, Maestre-Góngora GP, Múnera-Ramírez DA"
+  venue:   "Computers & Security"
+  year:    2024
+  type:    journal
+  tags:    [ml, security, cyberdef]
+  doi:     null
+  pdf:     null
+  code:    null
+
+- title:   "Multi-Agent Reinforcement Learning for Residential Demand Response"
+  authors: "Mera-Banguero CA, Maestre-Góngora GP, Uribe-Guerra GD"
+  venue:   "Applied Energy"
+  year:    2023
+  type:    journal
+  tags:    [decision, ml, environment]
+  doi:     null
+  pdf:     null
+  code:    null
+
+- title:   "Automated Grading of Coffee Bean Quality with Few-Shot Convolutional Networks"
+  authors: "Botia-Valderrama DJL, Tamayo-Herrera AJ, Ramos-Pollán R"
+  venue:   "Computers and Electronics in Agriculture"
+  year:    2023
+  type:    journal
+  tags:    [vision, ml, agriculture]
+  doi:     null
+  pdf:     null
+  code:    null
+
+- title:   "VoiPath: An Open Corpus of Pathological Colombian Spanish Voice Recordings"
+  authors: "Arias-Londoño JD, Salazar-Sánchez MB, Cobaleda-E LV"
+  venue:   "LREC-COLING 2024"
+  year:    2024
+  type:    conference
+  tags:    [ml, biomedical, speech, healthcare]
+  doi:     null
+  pdf:     null
+  code:    "https://github.com/IN2LABUDEA"
+
+- title:   "Sistema de Detección Automática de Patologías de Voz"
+  authors: "In2Lab — Universidad de Antioquia"
+  venue:   "Software registration — Dirección Nacional de Derechos de Autor, Colombia"
+  year:    2023
+  type:    software
+  tags:    [ml, biomedical, speech, healthcare]
+  doi:     null
+  pdf:     null
+  code:    null

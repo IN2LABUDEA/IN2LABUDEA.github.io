@@ -5,36 +5,108 @@ title: Research
 <div class="page-header">
   <div class="container">
     <h1>Research</h1>
-    <p class="lead">Six research lines spanning machine learning, signal processing, computer vision, and intelligent systems.</p>
+    <p class="lead">Six research lines, seven active projects, and contributions spanning healthcare, industry, security, and society.</p>
   </div>
 </div>
 
 <div class="main-content">
   <div class="container">
+
     <p>
       In2Lab is dedicated to the study and application of intelligent methods for complex information problems.
       Our work addresses both fundamental research questions and real-world applications, with a strong emphasis
-      on collaboration with clinical, industrial, and academic partners. We publish in top-tier venues and
-      actively share code and datasets with the community.
+      on collaboration with clinical, industrial, and academic partners across Colombia and internationally.
+      We publish in top-tier venues and actively share code and datasets.
     </p>
 
-    <hr>
-
+    <!-- ── RESEARCH LINES ──────────────────────────────────── -->
+    <h2 class="section-heading" style="margin-top:1.75rem">Research lines</h2>
     {% for line in site.data.research %}
     <div style="display:flex;gap:1rem;align-items:flex-start;margin-bottom:1.75rem">
       <span style="font-size:1.8rem;line-height:1.3;flex-shrink:0">{{ line.icon }}</span>
       <div>
         <h3 style="margin-top:0">{{ line.title }}</h3>
-        <p style="color:#555;margin:0">{{ line.desc }}</p>
+        <p style="color:#555;margin:0 0 .4rem">{{ line.desc }}</p>
+        {% assign line_tag = site.data.tags.lines | where: "title", line.title | first %}
+        {% if line_tag %}{% include tag-pill.html tags=line_tag.id %}{% endif %}
       </div>
     </div>
     {% endfor %}
 
     <hr>
+
+    <!-- ── PROJECTS ────────────────────────────────────────── -->
+    <h2 class="section-heading">Projects</h2>
+
+    {% include filter-bar.html %}
+
+    <!-- Active projects -->
+    {% assign active = site.data.projects | where: "status", "active" %}
+    {% if active.size > 0 %}
+    <h3 style="margin-top:1rem;color:#026937">Active projects</h3>
+    {% for proj in active %}
+    {% assign tag_ids = proj.tags | join: "," %}
+    <article class="project-item" data-tags="{{ tag_ids }}">
+      <div class="project-header">
+        <div class="project-title">
+          {% if proj.link %}
+          <a href="{{ proj.link }}" target="_blank" rel="noopener">{{ proj.title }}</a>
+          {% else %}
+          {{ proj.title }}
+          {% endif %}
+        </div>
+        <span class="project-status status-active">Active</span>
+      </div>
+      <div class="project-meta">
+        Since {{ proj.started }}
+        {% if proj.funding %} · {{ proj.funding }}{% endif %}
+      </div>
+      <p class="project-desc">{{ proj.desc }}</p>
+      {% include tag-pill.html tags=proj.tags %}
+      {% if proj.people.size > 0 %}
+      <div class="project-people">
+        <strong>Team:</strong> {{ proj.people | join: " · " }}
+      </div>
+      {% endif %}
+    </article>
+    {% endfor %}
+    {% endif %}
+
+    <!-- Completed projects -->
+    {% assign completed = site.data.projects | where: "status", "completed" %}
+    {% if completed.size > 0 %}
+    <h3 style="margin-top:2rem;color:#555">Completed projects</h3>
+    {% for proj in completed %}
+    {% assign tag_ids = proj.tags | join: "," %}
+    <article class="project-item project-item-completed" data-tags="{{ tag_ids }}">
+      <div class="project-header">
+        <div class="project-title">
+          {% if proj.link %}
+          <a href="{{ proj.link }}" target="_blank" rel="noopener">{{ proj.title }}</a>
+          {% else %}
+          {{ proj.title }}
+          {% endif %}
+        </div>
+        <span class="project-status status-completed">{{ proj.started }}–{{ proj.ended }}</span>
+      </div>
+      {% if proj.funding %}<div class="project-meta">{{ proj.funding }}</div>{% endif %}
+      <p class="project-desc">{{ proj.desc }}</p>
+      {% include tag-pill.html tags=proj.tags %}
+      {% if proj.people.size > 0 %}
+      <div class="project-people">
+        <strong>Team:</strong> {{ proj.people | join: " · " }}
+      </div>
+      {% endif %}
+    </article>
+    {% endfor %}
+    {% endif %}
+
+    <hr>
     <p>
-      For a complete list of publications, see our
-      <a href="{{ site.links.gruplac }}" target="_blank" rel="noopener">GrupLAC profile on MinCiencias</a>
-      or visit individual researcher profiles on <a href="{{ '/people/' | relative_url }}">the People page</a>.
+      For a complete list of publications associated with these projects, see the
+      <a href="{{ '/publications/' | relative_url }}">Publications page</a> or our
+      <a href="{{ site.links.gruplac }}" target="_blank" rel="noopener">GrupLAC profile</a>.
     </p>
+
   </div>
 </div>

@@ -1,0 +1,27 @@
+{% comment %}
+  Renders tag pills for a given list of tag ids.
+  Usage:
+    {% include tag-pill.html tags=item.tags %}
+    {% include tag-pill.html tags=item.tags link=true %}   ← makes pills filter-buttons
+{% endcomment %}
+{% if include.tags %}
+<span class="tag-list">
+  {% for tid in include.tags %}
+    {% assign line_match = site.data.tags.lines | where: "id", tid | first %}
+    {% assign area_match = site.data.tags.areas | where: "id", tid | first %}
+    {% if line_match %}
+      {% if include.link %}
+      <button class="tag tag-line tag-{{ tid }}" data-filter-tag="{{ tid }}" title="Research line: {{ line_match.title }}">{{ line_match.label }}</button>
+      {% else %}
+      <span class="tag tag-line tag-{{ tid }}" title="Research line: {{ line_match.title }}">{{ line_match.label }}</span>
+      {% endif %}
+    {% elsif area_match %}
+      {% if include.link %}
+      <button class="tag tag-area tag-{{ tid }}" data-filter-tag="{{ tid }}" title="Application area: {{ area_match.label }}">{{ area_match.label }}</button>
+      {% else %}
+      <span class="tag tag-area tag-{{ tid }}" title="Application area: {{ area_match.label }}">{{ area_match.label }}</span>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</span>
+{% endif %}

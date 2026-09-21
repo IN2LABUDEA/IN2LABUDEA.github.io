@@ -1,0 +1,27 @@
+{% comment %}
+  Interactive tag filter bar.
+  Clicking a tag filters items that carry data-tags="..." on the page.
+  Usage: {% include filter-bar.html %}
+{% endcomment %}
+<div class="filter-bar" id="filter-bar">
+  <div class="filter-row">
+    <span class="filter-label">Research line</span>
+    <div class="filter-group">
+      {% for tag in site.data.tags.lines %}
+      <button class="tag tag-line tag-{{ tag.id }}" data-filter-tag="{{ tag.id }}" title="{{ tag.title }}">{{ tag.label }}</button>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="filter-row">
+    <span class="filter-label">Application area</span>
+    <div class="filter-group">
+      {% for tag in site.data.tags.areas %}
+      <button class="tag tag-area tag-{{ tag.id }}" data-filter-tag="{{ tag.id }}">{{ tag.label }}</button>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="filter-status">
+    <span class="filter-count"></span>
+    <button class="filter-clear" id="filter-clear" style="display:none">✕ Clear filters</button>
+  </div>
+</div>

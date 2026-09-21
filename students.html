@@ -1,0 +1,149 @@
+---
+layout: default
+title: Students
+---
+<div class="page-header">
+  <div class="container">
+    <h1>Students</h1>
+    <p class="lead">Current and former members at the PhD, MSc, and undergraduate levels.</p>
+  </div>
+</div>
+
+<div class="main-content">
+  <div class="container">
+
+    <!-- FILTER BAR -->
+    {% include filter-bar.html %}
+
+    <!-- ── CURRENT STUDENTS ────────────────────────────────── -->
+    <h2 class="section-heading">PhD Students</h2>
+    {% assign phd = site.data.students.current.phd %}
+    {% if phd.size > 0 %}
+    <div class="student-grid" id="phd-grid">
+      {% for s in phd %}
+      {% assign tag_ids = s.tags | join: "," %}
+      <article class="student-card" data-tags="{{ tag_ids }}">
+        <div class="student-name">{{ s.name }}</div>
+        <div class="student-meta">Since {{ s.started }} · Advisor: {{ s.advisor }}</div>
+        <div class="student-topic">{{ s.topic }}</div>
+        {% include tag-pill.html tags=s.tags %}
+        <div class="student-links">
+          {% if s.web %}
+          <a href="{{ s.web }}" class="person-link" target="_blank" rel="noopener">Web ↗</a>
+          {% else %}
+          <span class="person-link unavailable">Web</span>
+          {% endif %}
+          {% if s.scholar %}
+          <a href="{{ s.scholar }}" class="person-link" target="_blank" rel="noopener">Scholar ↗</a>
+          {% else %}
+          <span class="person-link unavailable">Scholar</span>
+          {% endif %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p style="color:#888">No PhD students listed yet.</p>
+    {% endif %}
+
+    <h2 class="section-heading" style="margin-top:2rem">Master's Students</h2>
+    {% assign masters = site.data.students.current.masters %}
+    {% if masters.size > 0 %}
+    <div class="student-grid" id="masters-grid">
+      {% for s in masters %}
+      {% assign tag_ids = s.tags | join: "," %}
+      <article class="student-card" data-tags="{{ tag_ids }}">
+        <div class="student-name">{{ s.name }}</div>
+        <div class="student-meta">Since {{ s.started }} · Advisor: {{ s.advisor }}</div>
+        <div class="student-topic">{{ s.topic }}</div>
+        {% include tag-pill.html tags=s.tags %}
+        <div class="student-links">
+          {% if s.web %}
+          <a href="{{ s.web }}" class="person-link" target="_blank" rel="noopener">Web ↗</a>
+          {% else %}
+          <span class="person-link unavailable">Web</span>
+          {% endif %}
+          {% if s.scholar %}
+          <a href="{{ s.scholar }}" class="person-link" target="_blank" rel="noopener">Scholar ↗</a>
+          {% else %}
+          <span class="person-link unavailable">Scholar</span>
+          {% endif %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p style="color:#888">No master's students listed yet.</p>
+    {% endif %}
+
+    <h2 class="section-heading" style="margin-top:2rem">Undergraduate Students</h2>
+    {% assign ug = site.data.students.current.undergrad %}
+    {% if ug.size > 0 %}
+    <div class="student-grid" id="ug-grid">
+      {% for s in ug %}
+      {% assign tag_ids = s.tags | join: "," %}
+      <article class="student-card" data-tags="{{ tag_ids }}">
+        <div class="student-name">{{ s.name }}</div>
+        <div class="student-meta">Since {{ s.started }} · Advisor: {{ s.advisor }}</div>
+        <div class="student-topic">{{ s.topic }}</div>
+        {% include tag-pill.html tags=s.tags %}
+        <div class="student-links">
+          {% if s.web %}
+          <a href="{{ s.web }}" class="person-link" target="_blank" rel="noopener">Web ↗</a>
+          {% else %}
+          <span class="person-link unavailable">Web</span>
+          {% endif %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p style="color:#888">No undergraduate students listed yet.</p>
+    {% endif %}
+
+    <hr style="margin-top:2.5rem">
+
+    <!-- ── FORMER STUDENTS ─────────────────────────────────── -->
+    <h2 class="section-heading" style="margin-top:2rem">Alumni</h2>
+    <p style="color:#555;font-size:.9rem;margin-bottom:1.25rem">
+      Former PhD, MSc, and BSc students who completed their degrees at In2Lab.
+    </p>
+    <table class="alumni-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Degree</th>
+          <th>Year</th>
+          <th>Thesis</th>
+          <th>Current position</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% assign former = site.data.students.former %}
+        {% for f in former %}
+        <tr>
+          <td>
+            {% if f.web %}
+            <a href="{{ f.web }}" target="_blank" rel="noopener">{{ f.name }}</a>
+            {% else %}
+            {{ f.name }}
+            {% endif %}
+          </td>
+          <td><span class="degree-badge degree-{{ f.degree | downcase }}">{{ f.degree }}</span></td>
+          <td>{{ f.year }}</td>
+          <td>{% if f.thesis %}<em>{{ f.thesis }}</em>{% endif %}</td>
+          <td>{{ f.now }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    <hr style="margin-top:2.5rem">
+    <p style="color:#666;font-size:.9rem">
+      Interested in joining In2Lab?
+      <a href="mailto:{{ site.links.email }}">Contact us</a> to discuss
+      graduate opportunities and open research positions.
+    </p>
+
+  </div>
+</div>

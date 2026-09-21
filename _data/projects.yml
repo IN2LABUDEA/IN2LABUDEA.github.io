@@ -1,0 +1,118 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Research projects
+#
+# status:  active | completed
+# tags:    list of tag ids (lines and/or areas) from _data/tags.yml
+# people:  list of names matching entries in _data/people.yml
+# funding: funding agency / source (optional)
+# link:    external URL (optional)
+# ─────────────────────────────────────────────────────────────────────────────
+
+- title:   "Automatic Detection and Assessment of Voice Pathologies"
+  desc:    >
+    Development of machine learning methods for the automatic detection,
+    characterization, and severity grading of voice disorders from acoustic
+    and aerodynamic signals, targeting clinical deployment in Colombian
+    hospitals.
+  status:  active
+  started: 2021
+  ended:   null
+  tags:    [ml, biomedical, speech, healthcare]
+  people:
+    - "Julián D. Arias-Londoño"
+    - "M. Bernarda Salazar Sánchez"
+  funding: "MinCiencias"
+  link:    null
+
+- title:   "Federated Learning for Privacy-Preserving Intrusion Detection"
+  desc:    >
+    Design of federated and differential-privacy-aware architectures for
+    intrusion detection in heterogeneous networks, avoiding the need to
+    centralize sensitive traffic data while maintaining detection accuracy.
+  status:  active
+  started: 2023
+  ended:   null
+  tags:    [ml, security, cyberdef]
+  people:
+    - "Katerine Marceles Villalba"
+    - "Gina P. Maestre Góngora"
+    - "Danny A. Múnera Ramírez"
+  funding: "Universidad de Antioquia — CODI"
+  link:    null
+
+- title:   "Deep Learning for Retinal Disease Screening"
+  desc:    >
+    End-to-end convolutional and transformer models for the grading of
+    diabetic retinopathy and age-related macular degeneration from fundus
+    photographs, with emphasis on model interpretability and clinical usability.
+  status:  active
+  started: 2022
+  ended:   null
+  tags:    [ml, vision, biomedical, healthcare]
+  people:
+    - "Raúl Ramos Pollán"
+    - "Diego J.L. Botia Valderrama"
+    - "Luz Viviana Cobaleda E."
+  funding: "MinCiencias — Colombia Científica"
+  link:    null
+
+- title:   "NLP and Speech Tools for Colombian Spanish"
+  desc:    >
+    Building corpora, language models, and evaluation benchmarks for
+    Colombian Spanish varieties, covering automatic speech recognition,
+    speaker profiling, sentiment analysis, and low-resource NLP.
+  status:  active
+  started: 2020
+  ended:   null
+  tags:    [ml, speech, language-society]
+  people:
+    - "Julián D. Arias-Londoño"
+    - "Ana Lucía Pérez Patiño"
+    - "Danny A. Múnera Ramírez"
+  funding: "MinCiencias"
+  link:    null
+
+- title:   "Intelligent Monitoring of Industrial Machinery"
+  desc:    >
+    Condition monitoring and predictive maintenance using vibration, acoustic
+    emission, and thermographic signals combined with anomaly detection and
+    remaining-useful-life estimation models.
+  status:  active
+  started: 2023
+  ended:   null
+  tags:    [ml, decision, biomedical, industry]
+  people:
+    - "Carlos A. Mera Banguero"
+    - "Javier F. Botia Valderrama"
+  funding: "Industry partnership"
+  link:    null
+
+- title:   "Multi-Agent Optimization for Smart Energy Grids"
+  desc:    >
+    Reinforcement learning and multi-agent coordination strategies for demand
+    response, generation dispatch, and congestion management in Colombia's
+    national electrical grid and distribution networks.
+  status:  completed
+  started: 2019
+  ended:   2023
+  tags:    [decision, ml, environment]
+  people:
+    - "Carlos A. Mera Banguero"
+    - "Gina P. Maestre Góngora"
+  funding: "MinCiencias — XcEL"
+  link:    null
+
+- title:   "Computer Vision for Agricultural Quality Control"
+  desc:    >
+    Image acquisition systems and deep learning pipelines for the automated
+    grading of coffee, mango, and avocado crops, developed in partnership
+    with Colombian agricultural cooperatives.
+  status:  completed
+  started: 2020
+  ended:   2024
+  tags:    [vision, ml, agriculture]
+  people:
+    - "Diego J.L. Botia Valderrama"
+    - "A.J. Tamayo Herrera"
+  funding: "MinAgricultura / MADR"
+  link:    null

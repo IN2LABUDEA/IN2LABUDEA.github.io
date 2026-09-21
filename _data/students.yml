@@ -1,0 +1,139 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Students — edit to add/update/remove members.
+#
+# current.phd / current.masters / current.undergrad
+#   name       – full name
+#   started    – year they joined
+#   topic      – thesis/project topic (brief phrase)
+#   advisor    – primary advisor name (should match a name in people.yml)
+#   tags       – list of tag ids from tags.yml (lines and/or areas)
+#   web        – personal page URL or null
+#   scholar    – Google Scholar URL or null
+#
+# former
+#   name       – full name
+#   degree     – PhD | MSc | BSc
+#   year       – graduation year
+#   thesis     – thesis title (optional)
+#   now        – current position/affiliation (optional)
+#   web        – current page URL or null
+# ─────────────────────────────────────────────────────────────────────────────
+
+current:
+  phd:
+    - name:    "Placeholder PhD Student 1"
+      started: 2023
+      topic:   "Deep learning for pathological voice detection"
+      advisor: "Julián D. Arias-Londoño"
+      tags:    [ml, biomedical, speech, healthcare]
+      web:     null
+      scholar: null
+
+    - name:    "Placeholder PhD Student 2"
+      started: 2022
+      topic:   "Federated learning for intrusion detection systems"
+      advisor: "Katerine Marceles Villalba"
+      tags:    [ml, security, cyberdef]
+      web:     null
+      scholar: null
+
+    - name:    "Placeholder PhD Student 3"
+      started: 2024
+      topic:   "Transformer-based models for medical image segmentation"
+      advisor: "Raúl Ramos Pollán"
+      tags:    [ml, vision, biomedical, healthcare]
+      web:     null
+      scholar: null
+
+  masters:
+    - name:    "Placeholder MSc Student 1"
+      started: 2024
+      topic:   "Speaker diarization in noisy environments"
+      advisor: "Julián D. Arias-Londoño"
+      tags:    [speech, ml]
+      web:     null
+      scholar: null
+
+    - name:    "Placeholder MSc Student 2"
+      started: 2023
+      topic:   "Graph neural networks for fraud detection"
+      advisor: "Gina P. Maestre Góngora"
+      tags:    [ml, security, finance]
+      web:     null
+      scholar: null
+
+    - name:    "Placeholder MSc Student 3"
+      started: 2024
+      topic:   "Object detection for agricultural pest monitoring"
+      advisor: "Diego J.L. Botia Valderrama"
+      tags:    [vision, ml, agriculture]
+      web:     null
+      scholar: null
+
+    - name:    "Placeholder MSc Student 4"
+      started: 2023
+      topic:   "Anomaly detection in industrial time series"
+      advisor: "Carlos A. Mera Banguero"
+      tags:    [ml, decision, industry]
+      web:     null
+      scholar: null
+
+  undergrad:
+    - name:    "Placeholder UG Student 1"
+      started: 2025
+      topic:   "Explainability in clinical ML models"
+      advisor: "M. Bernarda Salazar Sánchez"
+      tags:    [ml, healthcare]
+      web:     null
+      scholar: null
+
+    - name:    "Placeholder UG Student 2"
+      started: 2025
+      topic:   "Web scraping and NLP for Colombian news corpora"
+      advisor: "Danny A. Múnera Ramírez"
+      tags:    [ml, speech, language-society]
+      web:     null
+      scholar: null
+
+former:
+  - name:   "Placeholder Former PhD 1"
+    degree: "PhD"
+    year:   2023
+    thesis: "Automatic assessment of dysphonia using machine learning"
+    now:    "Postdoctoral researcher, Universidad Nacional de Colombia"
+    web:    null
+
+  - name:   "Placeholder Former PhD 2"
+    degree: "PhD"
+    year:   2022
+    thesis: "Convolutional architectures for retinal image analysis"
+    now:    "AI Engineer, Clínica Universitaria Bolivariana"
+    web:    null
+
+  - name:   "Placeholder Former MSc 1"
+    degree: "MSc"
+    year:   2024
+    thesis: "Lightweight anomaly detection for IoT networks"
+    now:    "Data scientist, Bancolombia"
+    web:    null
+
+  - name:   "Placeholder Former MSc 2"
+    degree: "MSc"
+    year:   2023
+    thesis: "Transfer learning for Colombian Spanish ASR"
+    now:    "NLP Engineer, Rappi"
+    web:    null
+
+  - name:   "Placeholder Former MSc 3"
+    degree: "MSc"
+    year:   2022
+    thesis: "Multi-agent reinforcement learning for energy optimization"
+    now:    "Research engineer, EPM"
+    web:    null
+
+  - name:   "Placeholder Former UG 1"
+    degree: "BSc"
+    year:   2024
+    thesis: "Real-time sign language recognition using MediaPipe"
+    now:    "MSc student, UdeA"
+    web:    null
