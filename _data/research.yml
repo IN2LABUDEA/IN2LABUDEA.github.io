@@ -1,37 +1,23 @@
 # Research lines — edit icon, title and description freely.
 
-- icon:  "🧠"
-  title: "Machine Learning & Pattern Recognition"
-  desc:  >
-    Statistical learning, deep neural networks, generative models, and pattern
-    analysis applied to structured and unstructured data across diverse domains.
+- icon:  "🤖"
+  title: "Intelligent Information Systems"
+  desc:  > Research on the design and development of intelligent information systems using artificial intelligence, including machine learning, deep learning, pattern recognition, signal and image processing, computer vision, recommender systems, intelligent agents, and natural language processing to extract knowledge, automate tasks, and support complex decision-making processes.
 
-- icon:  "💓"
-  title: "Biomedical Signal Processing"
-  desc:  >
-    Analysis of physiological signals — EEG, ECG, voice, pathological sounds,
-    and medical images — to support clinical diagnosis and translational research.
+- icon:  "📊"
+  title: "Data Science, Analytics and Big Data"
+  desc:  > Research on methods and technologies for collecting, managing, processing, analyzing, and visualizing large volumes of data, including data mining and supervised and unsupervised learning, to discover patterns, generate knowledge, and provide evidence-based support for organizational decision-making and strategic planning activities.
 
-- icon:  "🗣️"
-  title: "Speech & Language Technologies"
-  desc:  >
-    Automatic speech recognition, speaker profiling, pathological speech
-    analysis, and NLP tailored to the linguistic diversity of Colombian Spanish.
+- icon:  "☁️"
+  title: "Software Architecture and Distributed Systems"
+  desc:  > Research on the design and development of software architectures and distributed systems, including microservices, cloud-native platforms, high-performance computing, resilient architectures, and cybersecurity mechanisms, to enable scalable, efficient, reliable, and secure operation of complex computational services and applications across diverse environments.
 
-- icon:  "👁️"
-  title: "Computer Vision & Image Analysis"
-  desc:  >
-    Image classification, object detection, medical image interpretation, and
-    visual inspection powered by convolutional and transformer architectures.
+- icon:  "🛡️"
+  title: "Data Governance and Interoperability"
+  desc:  > Research on models, methods, and standards for ensuring data quality and interoperability across heterogeneous systems, while addressing data management, information exchange, ethical principles, privacy, security, and responsible governance in the collection, integration, sharing, and use of large-scale data across organizations.
 
-- icon:  "🔒"
-  title: "Information Security"
-  desc:  >
-    Cybersecurity, intrusion detection, vulnerability analysis, and
-    privacy-preserving machine learning for trustworthy information systems.
-
-- icon:  "⚙️"
-  title: "Intelligent Decision Systems"
-  desc:  >
-    Multi-agent systems, optimization, and decision-support tools for
-    applications in industry, healthcare, and education.
+- icon:  "🔄"
+  title: "Digital Transformation and Intelligent Organizations"
+  desc:  > Research on strategies, models, and technologies for digital transformation and intelligent organizations, including technology adoption, digital maturity assessment, process automation, and robotic process automation, to improve organizational capabilities, operational efficiency, service delivery, and innovation in public and private organizations.
+    
+    
