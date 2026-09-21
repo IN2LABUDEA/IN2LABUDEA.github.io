@@ -50,8 +50,8 @@ areas:
   - id:    language-society
     label: "Language & Society"
 
-  - id:    environment
-    label: "Environment"
+  - id:    accessibility
+    label: "Accessibility"
 
   - id:    agriculture
     label: "Agriculture"
