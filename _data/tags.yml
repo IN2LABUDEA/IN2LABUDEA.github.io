@@ -34,6 +34,9 @@ areas:
   - id:    healthcare
     label: "Healthcare"
 
+  - id:    metabolomics
+    label: "Metabolomics"
+
   - id:    biomedical
     label: "Biomedical Signal Processing"
 
