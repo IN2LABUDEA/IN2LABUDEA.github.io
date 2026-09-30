@@ -37,6 +37,12 @@ areas:
   - id:    metabolomics
     label: "Metabolomics"
 
+  - id: bioinformatics
+    label: "Bioinformatics"
+
+  - id: bigdata
+    label: "Big Data"
+
   - id:    biomedical
     label: "Biomedical Signal Processing"
 
