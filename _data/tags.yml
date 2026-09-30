@@ -14,7 +14,7 @@ lines:
     label: "Machine Learning"
     title: "Machine Learning & Pattern Recognition"
     
-  - id:    data_science
+  - id:    data
     label: "Data Science"
     title: "Data Science & Big Data"
     
