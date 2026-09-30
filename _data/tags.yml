@@ -46,6 +46,9 @@ areas:
   - id:    vision
     label: "Computer Vision & Image Analysis"
 
+  - id:    nlp
+    label: "Natural Language Processing"
+
   - id:    industry
     label: "Industry"
 
