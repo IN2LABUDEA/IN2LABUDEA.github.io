@@ -23,7 +23,7 @@
   venue:   "Journal of Translational Autoimmunity"
   year:    2026
   type:    journal
-  tags:    [data_science, metabolomics]
+  tags:    [data, metabolomics]
   doi:     10.1016/j.jtauto.2026.100387     # replace with real DOI
   pdf:     https://www.sciencedirect.com/science/article/pii/S2589909026000407/pdfft?md5=8f776c42b5b9c6c56e096a25a2f12a62&pid=1-s2.0-S2589909026000407-main.pdf
   code:    null
@@ -33,7 +33,7 @@
   venue:   "Research Square"
   year:    2026
   type:    journal
-  tags:    [data_science, metabolomics]
+  tags:    [data, metabolomics]
   doi:     10.21203/rs.3.rs-9357482/v1
   pdf:     https://doi.org/10.21203/rs.3.rs-9357482/v1
   code:    null
@@ -73,7 +73,7 @@
   venue:   "Frontiers in Aging Neuroscience"
   year:    2023
   type:    journal
-  tags:    [data_science, metabolomics]
+  tags:    [data, metabolomics]
   doi:     10.3389/fnagi.2023.1194203
   pdf:     https://www.frontiersin.org/articles/10.3389/fnagi.2023.1194203/full
   code:    null
@@ -164,7 +164,7 @@
   venue:   "Frontiers in Aging Neuroscience"
   year:    2020
   type:    journal
-  tags:    [data_science, metabolomics]
+  tags:    [data, metabolomics]
   doi:     10.3389/fnagi.2020.587989
   pdf:     https://www.frontiersin.org/articles/10.3389/fnagi.2020.587989/full
   code:    null
@@ -174,7 +174,7 @@
   venue:   "BBA - Molecular Basis of Disease"
   year:    2020
   type:    journal
-  tags:    [data_science, metabolomics]
+  tags:    [data, metabolomics]
   doi:     10.1016/j.bbadis.2020.165797
   pdf:     https://www.sciencedirect.com/science/article/pii/S0925443920301423
   code:    null
@@ -234,7 +234,7 @@
   venue:   "Communications in Computer and Information Science, vol. 833. Springer, Cham"
   year:    2018
   type:    book-chapter
-  tags:    [ml, data_science]
+  tags:    [ml, data]
   doi:     10.1007/978-3-030-03023-0_12
   pdf:     https://link.springer.com/chapter/10.1007/978-3-030-03023-0_12
   code:    null
@@ -274,7 +274,7 @@
   venue:   "Frontiers in Neuroscience"
   year:    2018
   type:    journal
-  tags:    [data_science, metabolomics]
+  tags:    [data, metabolomics]
   doi:     10.3389/fnins.2018.00989
   pdf:     https://www.frontiersin.org/articles/10.3389/fnins.2018.00989/full
   code:    null
@@ -284,7 +284,7 @@
   venue:   "Neuropharmacology"
   year:    2018
   type:    journal
-  tags:    [data_science, metabolomics]
+  tags:    [data, metabolomics]
   doi:     10.1016/j.neuropharm.2018.03.013
   pdf:     https://www.sciencedirect.com/science/article/pii/S0028390818301709
   code:    null
@@ -294,7 +294,7 @@
   venue:   "Journal of Alzheimer's Disease"
   year:    2018
   type:    journal
-  tags:    [data_science, metabolomics]
+  tags:    [data, metabolomics]
   doi:     10.3233/JAD-170554
   pdf:     https://content.iospress.com/articles/journal-of-alzheimers-disease/jad170554
   code:    null
@@ -366,7 +366,7 @@
   venue:   "Frontiers in Cellular Neuroscience"
   year:    2016
   type:    journal
-  tags:    [data_science, metabolomics]
+  tags:    [data, metabolomics]
   doi:     10.3389/fncel.2016.00260
   pdf:     https://www.frontiersin.org/articles/10.3389/fncel.2016.00260/full
   code:    null
