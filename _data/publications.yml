@@ -23,7 +23,7 @@
   venue:   "Journal of Translational Autoimmunity"
   year:    2026
   type:    journal
-  tags:    [data science, metabolomics, biomedical]
+  tags:    [data_science, metabolomics, biomedical]
   doi:     10.1016/j.jtauto.2026.100387     # replace with real DOI
   pdf:     https://www.sciencedirect.com/science/article/pii/S2589909026000407/pdfft?md5=8f776c42b5b9c6c56e096a25a2f12a62&pid=1-s2.0-S2589909026000407-main.pdf
   code:    null
@@ -33,7 +33,7 @@
   venue:   "Research Square"
   year:    2026
   type:    journal
-  tags:    [data science, metabolomics, biomedical]
+  tags:    [data_science, metabolomics, biomedical]
   doi:     10.21203/rs.3.rs-9357482/v1
   pdf:     https://doi.org/10.21203/rs.3.rs-9357482/v1
   code:    null
@@ -43,7 +43,7 @@
   venue:   "IEEE Journal of Selected Topics in Signal Processing"
   year:    2025
   type:    journal
-  tags:    [ml, neurodegeneration, signal-processing]
+  tags:    [ml, biomedical]
   doi:     10.1109/JSTSP.2025.11275989
   pdf:     https://ieeexplore.ieee.org/abstract/document/11275989
   code:    null
@@ -53,7 +53,7 @@
   venue:   "arXiv"
   year:    2024
   type:    journal
-  tags:    [ml, bayesian-optimization, agriculture]
+  tags:    [ml, agriculture]
   doi:     null
   pdf:     https://arxiv.org/abs/2409.12919
   code:    https://github.com/jdariasl/morbo
@@ -73,7 +73,7 @@
   venue:   "Frontiers in Aging Neuroscience"
   year:    2023
   type:    journal
-  tags:    [data science, metabolomics, biomedical]
+  tags:    [data_science, metabolomics, biomedical]
   doi:     10.3389/fnagi.2023.1194203
   pdf:     https://www.frontiersin.org/articles/10.3389/fnagi.2023.1194203/full
   code:    null
@@ -83,7 +83,7 @@
   venue:   "arXiv"
   year:    2022
   type:    journal
-  tags:    [speech, deep-learning, signal-processing]
+  tags:    [ml, speech]
   doi:     null
   pdf:     https://arxiv.org/abs/2205.13657
   code:    null
@@ -93,7 +93,7 @@
   venue:   "arXiv"
   year:    2022
   type:    journal
-  tags:    [ml, big-data, imbalanced-learning]
+  tags:    [ml, data_science]
   doi:     null
   pdf:     https://arxiv.org/abs/2210.04310
   code:    null
@@ -103,7 +103,7 @@
   venue:   "Biomedical Signal Processing and Control"
   year:    2021
   type:    journal
-  tags:    [speech, parkinson, review]
+  tags:    [speech, biomedical]
   doi:     10.1016/j.bspc.2021.102418
   pdf:     https://www.sciencedirect.com/science/article/abs/pii/S174680942100015X
   code:    null
@@ -113,7 +113,7 @@
   venue:   "Biomedical Signal Processing and Control"
   year:    2021
   type:    journal
-  tags:    [ml, voice, parkinson, signal-processing]
+  tags:    [ml, speech, biomedical]
   doi:     10.1016/j.bspc.2020.102049
   pdf:     https://www.sciencedirect.com/science/article/pii/S1746809420302056
   code:    null
@@ -134,7 +134,7 @@
   venue:   "IEEE Access"
   year:    2020
   type:    journal
-  tags:    [ml, covid, medical-imaging]
+  tags:    [ml, healthcare, vision]
   doi:     10.1109/ACCESS.2020.3044692
   pdf:     https://ieeexplore.ieee.org/document/9293268
   code:    https://github.com/jdariasl/COVIDNET
@@ -144,7 +144,7 @@
   venue:   "IEEE Journal of Selected Topics in Signal Processing"
   year:    2020
   type:    journal
-  tags:    [ml, voice, signal-processing]
+  tags:    [ml, speech, biomedical]
   doi:     10.1109/JSTSP.2019.2956709
   pdf:     https://ieeexplore.ieee.org/document/8917580
   code:    null
@@ -164,7 +164,7 @@
   venue:   "Frontiers in Aging Neuroscience"
   year:    2020
   type:    journal
-  tags:    [data science, metabolomics, biomedical]
+  tags:    [data_science, metabolomics, biomedical]
   doi:     10.3389/fnagi.2020.587989
   pdf:     https://www.frontiersin.org/articles/10.3389/fnagi.2020.587989/full
   code:    null
@@ -174,7 +174,7 @@
   venue:   "BBA - Molecular Basis of Disease"
   year:    2020
   type:    journal
-  tags:    [data science, metabolomics, biomedical]
+  tags:    [data_science, metabolomics, biomedical]
   doi:     10.1016/j.bbadis.2020.165797
   pdf:     https://www.sciencedirect.com/science/article/pii/S0925443920301423
   code:    null
@@ -184,7 +184,7 @@
   venue:   "Communications in Computer and Information Science, vol. 1295. Springer, Cham"
   year:    2019
   type:    book-chapter
-  tags:    [speech, parkinson, deep-learning]
+  tags:    [ml, speech, biomedical]
   doi:     10.1007/978-3-030-65654-6_6
   pdf:     https://link.springer.com/chapter/10.1007/978-3-030-65654-6_6
   code:    null
@@ -194,7 +194,7 @@
   venue:   "Communications in Computer and Information Science, vol. 1096. Springer, Cham"
   year:    2019
   type:    book-chapter
-  tags:    [ml, process-mining, probabilistic models]
+  tags:    [ml, industry]
   doi:     10.1007/978-3-030-36211-9_18
   pdf:     https://link.springer.com/chapter/10.1007/978-3-030-36211-9_18
   code:    null
