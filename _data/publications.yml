@@ -13,7 +13,7 @@
   venue:   "Digital Health"
   year:    2026
   type:    journal
-  tags:    [ml, biomedical, healthcare]
+  tags:    [ml, vision, biomedical, healthcare]
   doi:     10.1177/20552076261420932     # replace with real DOI
   pdf:     https://journals.sagepub.com/doi/pdf/10.1177/20552076261420932
   code:    null
@@ -23,7 +23,7 @@
   venue:   "Journal of Translational Autoimmunity"
   year:    2026
   type:    journal
-  tags:    [data_science, metabolomics, biomedical]
+  tags:    [data_science, metabolomics]
   doi:     10.1016/j.jtauto.2026.100387     # replace with real DOI
   pdf:     https://www.sciencedirect.com/science/article/pii/S2589909026000407/pdfft?md5=8f776c42b5b9c6c56e096a25a2f12a62&pid=1-s2.0-S2589909026000407-main.pdf
   code:    null
@@ -33,7 +33,7 @@
   venue:   "Research Square"
   year:    2026
   type:    journal
-  tags:    [data_science, metabolomics, biomedical]
+  tags:    [data_science, metabolomics]
   doi:     10.21203/rs.3.rs-9357482/v1
   pdf:     https://doi.org/10.21203/rs.3.rs-9357482/v1
   code:    null
@@ -73,7 +73,7 @@
   venue:   "Frontiers in Aging Neuroscience"
   year:    2023
   type:    journal
-  tags:    [data_science, metabolomics, biomedical]
+  tags:    [data_science, metabolomics]
   doi:     10.3389/fnagi.2023.1194203
   pdf:     https://www.frontiersin.org/articles/10.3389/fnagi.2023.1194203/full
   code:    null
@@ -164,7 +164,7 @@
   venue:   "Frontiers in Aging Neuroscience"
   year:    2020
   type:    journal
-  tags:    [data_science, metabolomics, biomedical]
+  tags:    [data_science, metabolomics]
   doi:     10.3389/fnagi.2020.587989
   pdf:     https://www.frontiersin.org/articles/10.3389/fnagi.2020.587989/full
   code:    null
@@ -174,7 +174,7 @@
   venue:   "BBA - Molecular Basis of Disease"
   year:    2020
   type:    journal
-  tags:    [data_science, metabolomics, biomedical]
+  tags:    [data_science, metabolomics]
   doi:     10.1016/j.bbadis.2020.165797
   pdf:     https://www.sciencedirect.com/science/article/pii/S0925443920301423
   code:    null
@@ -214,7 +214,7 @@
   venue:   "2nd IEEE Colombian Conference on Applications in Computational Intelligence (COLCACI)"
   year:    2019
   type:    conference
-  tags:    [ml, process-mining]
+  tags:    [ml, industry]
   doi:     10.1109/ColCACI.2019.8781973
   pdf:     https://ieeexplore.ieee.org/document/8781973
   code:    null
@@ -224,7 +224,7 @@
   venue:   "The 2019 World Congress in Computer Science, Computer Engineering, & Applied Computing"
   year:    2019
   type:    conference
-  tags:    [ml, software-architecture]
+  tags:    [ml, decision]
   doi:     null
   pdf:     https://www.proquest.com/openview/530e6137e025d797ad4efec1b5d25048/1
   code:    null
@@ -234,7 +234,7 @@
   venue:   "Communications in Computer and Information Science, vol. 833. Springer, Cham"
   year:    2018
   type:    book-chapter
-  tags:    [ml, big-data]
+  tags:    [ml, data_science]
   doi:     10.1007/978-3-030-03023-0_12
   pdf:     https://link.springer.com/chapter/10.1007/978-3-030-03023-0_12
   code:    null
@@ -244,7 +244,7 @@
   venue:   "Proceedings of the IEEE International Conference on Big Data"
   year:    2018
   type:    conference
-  tags:    [ml, voice, signal-processing]
+  tags:    [ml, speech, biomedical]
   doi:     10.1109/BigData.2018.8622498
   pdf:     https://ieeexplore.ieee.org/document/8622498
   code:    null
@@ -254,7 +254,7 @@
   venue:   "Colombian Conference on Applications in Computational Intelligence (COLCACI)"
   year:    2018
   type:    conference
-  tags:    [ml, big-data]
+  tags:    [ml, bigdata]
   doi:     10.1109/ColCACI.2018.8484855
   pdf:     https://ieeexplore.ieee.org/document/8484855
   code:    null
@@ -264,7 +264,7 @@
   venue:   "BIOSTEC - BIOINFORMATICS 2018"
   year:    2018
   type:    conference
-  tags:    [ml,bioinformatics]
+  tags:    [ml, bioinformatics]
   doi:     10.5220/0006647900000000
   pdf:     https://www.scitepress.org/Papers/2018/66479/66479.pdf
   code:    null
@@ -274,7 +274,7 @@
   venue:   "Frontiers in Neuroscience"
   year:    2018
   type:    journal
-  tags:    [data science, metabolomics, biomedical]
+  tags:    [data_science, metabolomics]
   doi:     10.3389/fnins.2018.00989
   pdf:     https://www.frontiersin.org/articles/10.3389/fnins.2018.00989/full
   code:    null
@@ -284,7 +284,7 @@
   venue:   "Neuropharmacology"
   year:    2018
   type:    journal
-  tags:    [data science, metabolomics, biomedical]
+  tags:    [data_science, metabolomics]
   doi:     10.1016/j.neuropharm.2018.03.013
   pdf:     https://www.sciencedirect.com/science/article/pii/S0028390818301709
   code:    null
@@ -294,7 +294,7 @@
   venue:   "Journal of Alzheimer's Disease"
   year:    2018
   type:    journal
-  tags:    [data science, metabolomics, biomedical]
+  tags:    [data_science, metabolomics]
   doi:     10.3233/JAD-170554
   pdf:     https://content.iospress.com/articles/journal-of-alzheimers-disease/jad170554
   code:    null
@@ -305,7 +305,7 @@
   venue:   "COLCOM 2017"
   year:    2017
   type:    conference
-  tags:    [ml, big-data, finance]
+  tags:    [ml, bigdata, finance, cyberdef]
   doi:     10.1109/ColComCon.2017.8088206
   pdf:     https://ieeexplore.ieee.org/document/8088206
   code:    null
@@ -336,7 +336,7 @@
   venue:   "Redin"
   year:    2016
   type:    journal
-  tags:    [ml, biometrics, signal-processing]
+  tags:    [ml, biometrics]
   doi:     null
   pdf:     https://revistas.udea.edu.co/index.php/ingenieria/article/view/22931
   code:    null
@@ -346,7 +346,7 @@
   venue:   "The Journal of the Acoustical Society of America"
   year:    2016
   type:    journal
-  tags:    [ml, speech, parkinson, signal-processing]
+  tags:    [ml, speech, biomedical]
   doi:     10.1121/1.4939739
   pdf:     https://asa.scitation.org/doi/full/10.1121/1.4939739
   code:    null
@@ -356,7 +356,7 @@
   venue:   "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
   year:    2016
   type:    conference
-  tags:    [ml, speech, parkinson, signal-processing]
+  tags:    [ml, speech, biomedical]
   doi:     10.1109/ICASSP.2016.7472927
   pdf:     https://ieeexplore.ieee.org/document/7472927
   code:    null
@@ -366,7 +366,7 @@
   venue:   "Frontiers in Cellular Neuroscience"
   year:    2016
   type:    journal
-  tags:    [data science, metabolomics, biomedical]
+  tags:    [data_science, metabolomics]
   doi:     10.3389/fncel.2016.00260
   pdf:     https://www.frontiersin.org/articles/10.3389/fncel.2016.00260/full
   code:    null
