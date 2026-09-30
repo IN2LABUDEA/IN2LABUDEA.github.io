@@ -371,6 +371,77 @@
   pdf:     https://www.frontiersin.org/articles/10.3389/fncel.2016.00260/full
   code:    null
 
+- title: "A framework for designing user-centered data visualizations in smart city technologies"
+  authors: "Cepero, Teresa, Montané-Jiménez, Luis G., Maestre-Góngora, Gina Paola"
+  venue: "Technological Forecasting and Social Change"
+  year: 2025
+  type: journal
+  tags:    [DT, Government]
+  doi: "10.1016/j.techfore.2024.123855"
+  pdf:   https://www.sciencedirect.com/science/article/abs/pii/S004016252400653X
+  code:  null
+
+- title: "Requirements Engineering for Data Products: Adapting User Stories"
+  authors: "Maestre-Góngora, Gina Paola, Gómez-Álvarez, María Clara"
+  venue: "Congresso Ibero-Americano em Engenharia de Software (CIbSE)"
+  year: 2026
+  type: conference
+  tags:    [SoftEng]
+  doi:     null
+  pdf: "https://sol.sbc.org.br/index.php/cibse/article/view/42478/42245"
+  data:    https://zenodo.org/records/18470923
+
+- title: "A Gap-oriented Adoption Readiness Framework for Digital Transformation of Urban Transport Cooperatives"
+  authors: "Astudillo, Hernán, Maestre-Góngora, Gina, Concha, Gastón"
+  venue: "2025 44th International Conference of the Chilean Computer Science Society (SCCC)"
+  year: 2025
+  type: conference
+  tags:    [DT, Government]
+  doi: "10.1109/SCCC67219.2025.11420465"
+  pdf: https://ieeexplore.ieee.org/document/11420465
+  code:    null
+
+- title: "Hacia la transformación digital en instituciones de educación superior: caso de la Facultad de Ingeniería de la Universidad de Antioquia"
+  authors: "Maestre-Góngora, Gina., Monsalve Ríos, C. L., Rodríguez Loaiza, D. C., Saldarriaga Molina, J. C."
+  venue: "Encuentro Internacional de Educación en Ingeniería"
+  year: 2025
+  type: conference
+  tags:    [DT, Education]
+  doi: "10.26507/paper.4485"
+  pdf:  https://acofipapers.org/index.php/eiei/article/view/4485/2776
+  code: null
+
+- title: "Implementing data governance programs in a Colombian public institution"
+  authors: "Aragon-Mendoza, Juan, Cifuentes, Myriam Patricia, Maestre-Góngora, Gina, López, Diana, Osorio Giraldo, Fernando, Cifuentes Restrepo, Osvaldo"
+  venue: "VIII Ibero-American Congress of Smart Cities ICSC-CITIES 2025"
+  year: 2025
+  type: conference
+ tags:    [DG, DT, Government]
+  doi: "10.5281/zenodo.18341300"
+  pdf:     null
+  code:    null
+
+- title: "Designing a Minimum Viable Blockchain Ecosystem for Forest Asset Management: A Case for Colombia"
+  authors: "Muñoz-Cano, Fredy., Maestre-Góngora, G. P. M., Quiceno, A. P. V."
+  venue: "Extended Reality and Serious Games for Education, Competitiveness, and Wellbeing"
+  year: 2025
+  type: book-chapter
+   tags:    [DT]
+  doi: "10.1007/978-3-031-91481-2_13"
+  pdf:     https://link.springer.com/chapter/10.1007/978-3-031-91481-2_13
+  code:    null
+
+
+- title: "Observación de la brecha digital en las organizaciones en el marco de la transición digital: enfoque en la empleabilidad y la gobernanza de datos"
+  authors: "Alvarado Mariño, C., Aniorte, P., Maestre-Góngora, G. P."
+  venue: "Encuentro Internacional de Educación en Ingeniería"
+  year: 2025
+  type: conference
+  tags:    [DT]
+  doi: "10.26507/paper.4389"
+  pdf: https://acofipapers.org/index.php/eiei/article/view/4389/2771
+  code:    null
+
 
   
 
