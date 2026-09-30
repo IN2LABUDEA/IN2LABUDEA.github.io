@@ -385,7 +385,7 @@
   venue: "Congresso Ibero-Americano em Engenharia de Software (CIbSE)"
   year: 2026
   type: conference
-  tags: [SoftEng]
+  tags: [SoftEng, education]
   doi: null
   pdf: "https://sol.sbc.org.br/index.php/cibse/article/view/42478/42245"
   data: "https://zenodo.org/records/18470923"
@@ -405,7 +405,7 @@
   venue: "Encuentro Internacional de Educación en Ingeniería"
   year: 2025
   type: conference
-  tags: [DT, Education]
+  tags: [DT, education]
   doi: "10.26507/paper.4485"
   pdf: "https://acofipapers.org/index.php/eiei/article/view/4485/2776"
   code: null
