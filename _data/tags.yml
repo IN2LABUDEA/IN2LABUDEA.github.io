@@ -3,6 +3,7 @@
 #
 # type: "line"  → research line (green palette, solid)
 # type: "area"  → application area (teal palette, outlined)
+# type: "product" → product type (neutral palette, solid)
 #
 # These IDs are referenced in _data/projects.yml, publications.yml,
 # and students.yml under the `tags:` field.
@@ -78,3 +79,7 @@ areas:
 
   - id:    finance
     label: "Finance"
+
+products:
+  - id:    preprint
+    label: "PREPRINT"

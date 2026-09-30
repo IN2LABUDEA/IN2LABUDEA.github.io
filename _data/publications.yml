@@ -1,7 +1,7 @@
 # ─────────────────────────────────────────────────────────────────────────────
 # Publications
 #
-# type:    journal | conference | book-chapter | patent | software
+# type:    journal | conference | book-chapter | patent | software | preprint
 # tags:    list of tag ids from _data/tags.yml
 # doi:     DOI string only, e.g. "10.1016/j.csl.2024.101234" (no URL prefix)
 # pdf:     relative path or full URL to open-access PDF (optional)
@@ -12,7 +12,7 @@
   authors: "Osorno-Castillo Kevin, Fonnegra Rubén D., Hernández María Liliana, Mera-Banguero Carlos, and Díaz Gloria M."
   venue:   "Digital Health"
   year:    2026
-  type:    journal
+  type:    preprint
   tags:    [ml, vision, biomedical, healthcare]
   doi:     10.1177/20552076261420932     # replace with real DOI
   pdf:     https://journals.sagepub.com/doi/pdf/10.1177/20552076261420932
@@ -22,8 +22,8 @@
   authors: "Castaño-López S., Lopera T.J., Restrepo V., Carbal L.F., Ramírez-Mejía J.M., Hernández A., Gil D., Díaz J.-C. , Manrique-Moreno M., Barazzuol L., Posada-Duque R., Rojas M., Vásquez G., Corrales-Garcia L., Arias-Londoño J.D., Wolters J.C., Castaño D."
   venue:   "Journal of Translational Autoimmunity"
   year:    2026
-  type:    journal
-  tags:    [data, metabolomics]
+  type:    preprint
+  tags:    [data, metabolomics, preprint]
   doi:     10.1016/j.jtauto.2026.100387     # replace with real DOI
   pdf:     https://www.sciencedirect.com/science/article/pii/S2589909026000407/pdfft?md5=8f776c42b5b9c6c56e096a25a2f12a62&pid=1-s2.0-S2589909026000407-main.pdf
   code:    null
@@ -32,7 +32,7 @@
   authors: "Cardona-Gómez G.P., Salomón-Cruz I.D., Galvis-Garrido N.D., Lozano-Trujillo L.A., Barbosa-Carvajal J.P., Agudelo-Castrillon S.C., Montesinos J., Yun T.D., Henao E., Quiroz Y., Kosik K., Schon E., Larrea D., Lopera F., Villegas A., Aguirre-Acevedo D.C., Arias-Londoño J.D., Aguillón D., Area-Gómez E."
   venue:   "Research Square"
   year:    2026
-  type:    journal
+  type:    preprint
   tags:    [data, metabolomics]
   doi:     10.21203/rs.3.rs-9357482/v1
   pdf:     https://doi.org/10.21203/rs.3.rs-9357482/v1
@@ -42,7 +42,7 @@
   authors: "Godino-Llorente J.I., Arias-Londoño J.D., Hasegawa-Johnson M., Meng H., Shattuck-Hufnagel S."
   venue:   "IEEE Journal of Selected Topics in Signal Processing"
   year:    2025
-  type:    journal
+  type:    preprint
   tags:    [ml, biomedical]
   doi:     10.1109/JSTSP.2025.11275989
   pdf:     https://ieeexplore.ieee.org/abstract/document/11275989
@@ -53,7 +53,7 @@
   venue:   "arXiv"
   year:    2024
   type:    journal
-  tags:    [ml, agriculture]
+  tags:    [ml, agriculture, preprint]
   doi:     null
   pdf:     https://arxiv.org/abs/2409.12919
   code:    https://github.com/jdariasl/morbo
@@ -83,7 +83,7 @@
   venue:   "arXiv"
   year:    2022
   type:    journal
-  tags:    [ml, speech]
+  tags:    [ml, speech, preprint]
   doi:     null
   pdf:     https://arxiv.org/abs/2205.13657
   code:    null
@@ -93,7 +93,7 @@
   venue:   "arXiv"
   year:    2022
   type:    journal
-  tags:    [ml, data_science]
+  tags:    [ml, data_science, preprint]
   doi:     null
   pdf:     https://arxiv.org/abs/2210.04310
   code:    null

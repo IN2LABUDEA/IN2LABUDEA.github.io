@@ -9,6 +9,7 @@
   {% for tid in include.tags %}
     {% assign line_match = site.data.tags.lines | where: "id", tid | first %}
     {% assign area_match = site.data.tags.areas | where: "id", tid | first %}
+    {% assign product_match = site.data.tags.products | where: "id", tid | first %}
     {% if line_match %}
       {% if include.link %}
       <button class="tag tag-line tag-{{ tid }}" data-filter-tag="{{ tid }}" title="Research line: {{ line_match.title }}">{{ line_match.label }}</button>
@@ -20,6 +21,12 @@
       <button class="tag tag-area tag-{{ tid }}" data-filter-tag="{{ tid }}" title="Application area: {{ area_match.label }}">{{ area_match.label }}</button>
       {% else %}
       <span class="tag tag-area tag-{{ tid }}" title="Application area: {{ area_match.label }}">{{ area_match.label }}</span>
+      {% endif %}
+    {% elsif product_match %}
+      {% if include.link %}
+      <button class="tag tag-product tag-{{ tid }}" data-filter-tag="{{ tid }}" title="Product type: {{ product_match.label }}">{{ product_match.label }}</button>
+      {% else %}
+      <span class="tag tag-product tag-{{ tid }}" title="Product type: {{ product_match.label }}">{{ product_match.label }}</span>
       {% endif %}
     {% endif %}
   {% endfor %}

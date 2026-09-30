@@ -472,6 +472,15 @@ button.tag.tag-active {
 .tag-area:hover { background: #d8f5f0; }
 button.tag-area.tag-active { background: #3ebdac; color: #fff; }
 
+/* ── Product type tags (solid, neutral family) ────────────── */
+.tag-product {
+  background: #6b7280;
+  border-color: #6b7280;
+  color: #fff;
+}
+.tag-product:hover { background: #4b5563; border-color: #4b5563; }
+button.tag-product.tag-active { background: #374151; border-color: #374151; color: #fff; }
+
 /* Specific area overrides (subtle tint differences) */
 .tag-healthcare      { border-color: #069a7e; color: #069a7e; }
 .tag-industry        { border-color: #0e7774; color: #0e7774; }
@@ -625,6 +634,7 @@ button.tag-area.tag-active { background: #3ebdac; color: #fff; }
 .pub-type-software   { background: #8dc63f; color: #1a2800; }
 .pub-type-patent     { background: #0e7774; color: #fff; }
 .pub-type-book-chapter { background: #35944b; color: #fff; }
+.pub-type-preprint   { background: #6b7280; color: #fff; }
 
 /* ── PROJECTS ─────────────────────────────────────────────── */
 .project-item {
