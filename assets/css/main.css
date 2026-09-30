@@ -459,7 +459,8 @@ button.tag.tag-active {
 
 .tag-ml       { background: #026937; border-color: #026937; color: #0d2b0e;}
 .tag-data     { background: #35944b; border-color: #35944b; color: #0d2b0e;}
-.tag-governance   { background: #43b649; border-color: #43b649; color: #0d2b0e; }
+.tag-governance   { background: #43b649; border-color: #43b649; color: #0d2b0e;}
+.tag-digtrans { background: #8dc63f; border-color: #8dc63f; color: #0d2b0e;}
 .tag-security { background: #069a7e; border-color: #069a7e; color: #0d2b0e;}
 .tag-decision { background: #0e7774; border-color: #0e7774; color: #0d2b0e;}
 
