@@ -23,7 +23,7 @@
   venue:   "Journal of Translational Autoimmunity"
   year:    2026
   type:    journal
-  tags:    [data, metabolomics, preprint]
+  tags:    [data, metabolomics]
   doi:     10.1016/j.jtauto.2026.100387     # replace with real DOI
   pdf:     https://www.sciencedirect.com/science/article/pii/S2589909026000407/pdfft?md5=8f776c42b5b9c6c56e096a25a2f12a62&pid=1-s2.0-S2589909026000407-main.pdf
   code:    null
@@ -53,7 +53,7 @@
   venue:   "arXiv"
   year:    2024
   type:    preprint
-  tags:    [ml, agriculture, preprint]
+  tags:    [ml, agriculture]
   doi:     null
   pdf:     https://arxiv.org/abs/2409.12919
   code:    https://github.com/jdariasl/morbo
@@ -83,7 +83,7 @@
   venue:   "arXiv"
   year:    2022
   type:    preprint
-  tags:    [ml, speech, preprint]
+  tags:    [ml, speech]
   doi:     null
   pdf:     https://arxiv.org/abs/2205.13657
   code:    null
@@ -93,7 +93,7 @@
   venue:   "arXiv"
   year:    2022
   type:    preprint
-  tags:    [ml, data_science, preprint]
+  tags:    [ml, data_science]
   doi:     null
   pdf:     https://arxiv.org/abs/2210.04310
   code:    null
