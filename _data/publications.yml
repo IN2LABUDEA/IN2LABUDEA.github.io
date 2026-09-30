@@ -330,7 +330,6 @@
   pdf:     https://www.scitepress.org/papers/2017/61418/61418.pdf
   code:    null
 
-
 - title:   "On-line signature verification using Gaussian Mixture Models and small-sample learning strategies"
   authors: "Zapata-Zapata G., Arias-Londoño J.D., Vargas-Bonilla J.F., Orozco-Arroyave J.R."
   venue:   "Redin"
@@ -386,8 +385,8 @@
   venue: "Congresso Ibero-Americano em Engenharia de Software (CIbSE)"
   year: 2026
   type: conference
-  tags:    [SoftEng]
-  doi:     null
+  tags: [SoftEng]
+  doi:  null
   pdf: "https://sol.sbc.org.br/index.php/cibse/article/view/42478/42245"
   data:    https://zenodo.org/records/18470923
 
@@ -396,7 +395,7 @@
   venue: "2025 44th International Conference of the Chilean Computer Science Society (SCCC)"
   year: 2025
   type: conference
-  tags:    [DT, Government]
+  tags:  [DT, Government]
   doi: "10.1109/SCCC67219.2025.11420465"
   pdf: https://ieeexplore.ieee.org/document/11420465
   code:    null
@@ -416,7 +415,7 @@
   venue: "VIII Ibero-American Congress of Smart Cities ICSC-CITIES 2025"
   year: 2025
   type: conference
- tags:    [DG, DT, Government]
+  tags:  [DG, DT, Government]
   doi: "10.5281/zenodo.18341300"
   pdf:     null
   code:    null
@@ -426,11 +425,10 @@
   venue: "Extended Reality and Serious Games for Education, Competitiveness, and Wellbeing"
   year: 2025
   type: book-chapter
-   tags:    [DT]
+   tags:  [DT]
   doi: "10.1007/978-3-031-91481-2_13"
   pdf:     https://link.springer.com/chapter/10.1007/978-3-031-91481-2_13
   code:    null
-
 
 - title: "Observación de la brecha digital en las organizaciones en el marco de la transición digital: enfoque en la empleabilidad y la gobernanza de datos"
   authors: "Alvarado Mariño, C., Aniorte, P., Maestre-Góngora, G. P."
