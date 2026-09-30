@@ -375,7 +375,7 @@
   venue: "Technological Forecasting and Social Change"
   year: 2025
   type: journal
-  tags: [DT, Government]
+  tags: [digtrans, Government]
   doi: "10.1016/j.techfore.2024.123855"
   pdf: "https://www.sciencedirect.com/science/article/abs/pii/S004016252400653X"
   code: null
@@ -395,7 +395,7 @@
   venue: "2025 44th International Conference of the Chilean Computer Science Society (SCCC)"
   year: 2025
   type: conference
-  tags: [DT, Government]
+  tags: [digtrans, Government]
   doi: "10.1109/SCCC67219.2025.11420465"
   pdf: "https://ieeexplore.ieee.org/document/11420465"
   code: null
@@ -405,7 +405,7 @@
   venue: "Encuentro Internacional de Educación en Ingeniería"
   year: 2025
   type: conference
-  tags: [DT, education]
+  tags: [digtrans, education]
   doi: "10.26507/paper.4485"
   pdf: "https://acofipapers.org/index.php/eiei/article/view/4485/2776"
   code: null
@@ -425,7 +425,7 @@
   venue: "Extended Reality and Serious Games for Education, Competitiveness, and Wellbeing"
   year: 2025
   type: book-chapter
-  tags: [DT]
+  tags: [digtrans]
   doi: "10.1007/978-3-031-91481-2_13"
   pdf: "https://link.springer.com/chapter/10.1007/978-3-031-91481-2_13"
   code: null
@@ -435,7 +435,7 @@
   venue: "Encuentro Internacional de Educación en Ingeniería"
   year: 2025
   type: conference
-  tags: [DT]
+  tags: [digtrans]
   doi: "10.26507/paper.4389"
   pdf: "https://acofipapers.org/index.php/eiei/article/view/4389/2771"
   code: null
