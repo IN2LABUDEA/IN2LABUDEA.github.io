@@ -435,7 +435,7 @@
   venue: "Encuentro Internacional de Educación en Ingeniería"
   year: 2025
   type: conference
-  tags: [digtrans]
+  tags: [digtrans, industry]
   doi: "10.26507/paper.4389"
   pdf: "https://acofipapers.org/index.php/eiei/article/view/4389/2771"
   code: null
