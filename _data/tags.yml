@@ -55,6 +55,9 @@ areas:
   - id:    nlp
     label: "Natural Language Processing"
 
+  - id:    biometrics
+    label: "Biometrics"
+
   - id:    industry
     label: "Industry"
 
