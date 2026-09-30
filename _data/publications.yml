@@ -305,7 +305,7 @@
   venue:   "COLCOM 2017"
   year:    2017
   type:    conference
-  tags:    [ml, big-data, fraud-detection]
+  tags:    [ml, big-data, finance]
   doi:     10.1109/ColComCon.2017.8088206
   pdf:     https://ieeexplore.ieee.org/document/8088206
   code:    null
