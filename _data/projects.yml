@@ -24,19 +24,17 @@
   funding: "MinCiencias"
   link:    null
 
-- title:   "Federated Learning for Privacy-Preserving Intrusion Detection"
+- title:   "Data Governance Framework for Institutions of Higher Education"
   desc:    >
-    Design of federated and differential-privacy-aware architectures for
-    intrusion detection in heterogeneous networks, avoiding the need to
-    centralize sensitive traffic data while maintaining detection accuracy.
+    Define a conceptual and methodological framework based on the people, processes, 
+    and technology approach to support strategic planning for data governance 
+    in public institutions of higher education.
   status:  active
-  started: 2023
+  started: 2024
   ended:   null
-  tags:    [ml, security, cyberdef]
+  tags:    [governance, digtrans, education]
   people:
-    - "Katerine Marceles Villalba"
     - "Gina P. Maestre Góngora"
-    - "Danny A. Múnera Ramírez"
   funding: "Universidad de Antioquia — CODI"
   link:    null
 
@@ -85,21 +83,6 @@
     - "Carlos A. Mera Banguero"
     - "Javier F. Botia Valderrama"
   funding: "Industry partnership"
-  link:    null
-
-- title:   "Multi-Agent Optimization for Smart Energy Grids"
-  desc:    >
-    Reinforcement learning and multi-agent coordination strategies for demand
-    response, generation dispatch, and congestion management in Colombia's
-    national electrical grid and distribution networks.
-  status:  completed
-  started: 2019
-  ended:   2023
-  tags:    [decision, ml, environment]
-  people:
-    - "Carlos A. Mera Banguero"
-    - "Gina P. Maestre Góngora"
-  funding: "MinCiencias — XcEL"
   link:    null
 
 - title:   "Computer Vision for Agricultural Quality Control"
