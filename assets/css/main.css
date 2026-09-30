@@ -458,9 +458,8 @@ button.tag.tag-active {
 .tag-line { color: #fff; }
 
 .tag-ml       { background: #026937; border-color: #026937; }
-.tag-biomedical { background: #35944b; border-color: #35944b; }
-.tag-speech   { background: #43b649; border-color: #43b649; color: #0d2b0e; }
-.tag-vision   { background: #8dc63f; border-color: #8dc63f; color: #1a2800; }
+.tag-data     { background: #35944b; border-color: #35944b; }
+.tag-governance   { background: #43b649; border-color: #43b649; color: #0d2b0e; }
 .tag-security { background: #069a7e; border-color: #069a7e; }
 .tag-decision { background: #0e7774; border-color: #0e7774; }
 
@@ -478,8 +477,8 @@ button.tag-area.tag-active { background: #3ebdac; color: #fff; }
 .tag-industry        { border-color: #0e7774; color: #0e7774; }
 .tag-education       { border-color: #35944b; color: #35944b; background: #f0faf3; }
 .tag-cyberdef        { border-color: #026937; color: #026937; background: #f0f8f2; }
-.tag-language-society{ border-color: #3ebdac; color: #0e7774; }
-.tag-environment     { border-color: #43b649; color: #2a6b2d; background: #f3faf0; }
+.tag-vision          { border-color: #3ebdac; color: #0e7774; }
+.tag-speech          { border-color: #43b649; color: #2a6b2d; background: #f3faf0; }
 .tag-agriculture     { border-color: #8dc63f; color: #3a5c00; background: #f9fce8; }
 .tag-finance         { border-color: #0e7774; color: #0e4040; }
 
