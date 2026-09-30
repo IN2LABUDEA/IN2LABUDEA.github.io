@@ -29,7 +29,15 @@ lines:
 
   - id:    governance
     label: "Data Governance"
-    title: "Data Governance & Digital Transformation"
+    title: "Data Governance & Interoperability"
+
+  - id:    DT
+    label: "Digital Transformation"
+    title: " Digital Transformation and Intelligent Organizations"
+
+  - id:    SoftEng
+    label: "Software Engineering"
+    title: "Software Engineering"
 
 areas:
   - id:    healthcare
