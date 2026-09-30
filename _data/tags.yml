@@ -13,19 +13,11 @@ lines:
   - id:    ml
     label: "Machine Learning"
     title: "Machine Learning & Pattern Recognition"
-
-  - id:    biomedical
-    label: "Biomedical Signals"
-    title: "Biomedical Signal Processing"
-
-  - id:    speech
-    label: "Speech & Language"
-    title: "Speech & Language Technologies"
-
-  - id:    vision
-    label: "Computer Vision"
-    title: "Computer Vision & Image Analysis"
-
+    
+  - id: data_science
+    label: "Data Science"
+    title: "Data Science & Big Data"
+    
   - id:    security
     label: "Information Security"
     title: "Information Security"
@@ -34,9 +26,22 @@ lines:
     label: "Decision Systems"
     title: "Intelligent Decision Systems"
 
+  - id:    governance
+    label: "Data Governance"
+    title: "Data Governance & Digital Transformation"
+
 areas:
   - id:    healthcare
     label: "Healthcare"
+
+  - id:    biomedical
+    label: "Biomedical Signal Processing"
+
+  - id:    speech
+    label: "Speech & Language Technologies"
+
+  - id:    vision
+    label: "Computer Vision & Image Analysis"
 
   - id:    industry
     label: "Industry"
