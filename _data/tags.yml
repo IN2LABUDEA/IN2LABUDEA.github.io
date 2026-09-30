@@ -31,11 +31,11 @@ lines:
     label: "Data Governance"
     title: "Data Governance & Interoperability"
 
-  - id:    DT
+  - id: DT
     label: "Digital Transformation"
-    title: " Digital Transformation and Intelligent Organizations"
+    title: "Digital Transformation and Intelligent Organizations"
 
-  - id:    SoftEng
+  - id: SoftEng
     label: "Software Engineering"
     title: "Software Engineering"
 
