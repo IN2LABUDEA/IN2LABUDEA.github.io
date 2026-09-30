@@ -14,7 +14,7 @@ lines:
     label: "Machine Learning"
     title: "Machine Learning & Pattern Recognition"
     
-  - id: data_science
+  - id:    data_science
     label: "Data Science"
     title: "Data Science & Big Data"
     
@@ -37,10 +37,10 @@ areas:
   - id:    metabolomics
     label: "Metabolomics"
 
-  - id: bioinformatics
+  - id:    bioinformatics
     label: "Bioinformatics"
 
-  - id: bigdata
+  - id:    bigdata
     label: "Big Data"
 
   - id:    biomedical
