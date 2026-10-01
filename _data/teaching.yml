@@ -1,0 +1,55 @@
+# Teaching activities supported by In2Lab
+# Use repo: null when no public repository is available yet.
+
+postgraduate:
+  - program: "PhD in Engineering (Faculty of Engineering)"
+    courses:
+      - code: "PHD-ML-701"
+        title: "Advanced Machine Learning for Research"
+        level: "Doctoral"
+        semester: "TBD"
+        tags: [ml, data, education]
+        repo: null
+      - code: "PHD-DATA-702"
+        title: "Reproducible Data Science Methods"
+        level: "Doctoral"
+        semester: "TBD"
+        tags: [data, software, education]
+        repo: "https://github.com/IN2LABUDEA/phd-reproducible-data-science"
+
+  - program: "MSc in Engineering - Systems"
+    courses:
+      - code: "MSC-AI-611"
+        title: "Applied Artificial Intelligence"
+        level: "Master's"
+        semester: "TBD"
+        tags: [ml, software, education]
+        repo: null
+      - code: "MSC-CYBER-612"
+        title: "Secure Intelligent Systems"
+        level: "Master's"
+        semester: "TBD"
+        tags: [cyberdef, software, education]
+        repo: "https://github.com/IN2LABUDEA/secure-intelligent-systems"
+
+research_seedbed:
+  name: "In2Lab Research Seedbed"
+  courses:
+    - code: "SEED-001"
+      title: "Introduction to Research with Python"
+      level: "Seedbed"
+      semester: "TBD"
+      tags: [software, education]
+      repo: "https://github.com/IN2LABUDEA/seedbed-intro-python"
+    - code: "SEED-002"
+      title: "Project-Based Data Analytics"
+      level: "Seedbed"
+      semester: "TBD"
+      tags: [data, education]
+      repo: null
+    - code: "SEED-003"
+      title: "Ethics and Responsible AI"
+      level: "Seedbed"
+      semester: "TBD"
+      tags: [ml, governance, education]
+      repo: null
