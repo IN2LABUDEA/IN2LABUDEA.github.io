@@ -8,21 +8,6 @@
 # link:    external URL (optional)
 # ─────────────────────────────────────────────────────────────────────────────
 
-- title:   "Automatic Detection and Assessment of Voice Pathologies"
-  desc:    >
-    Development of machine learning methods for the automatic detection,
-    characterization, and severity grading of voice disorders from acoustic
-    and aerodynamic signals, targeting clinical deployment in Colombian
-    hospitals.
-  status:  active
-  started: 2021
-  ended:   null
-  tags:    [ml, biomedical, speech, healthcare]
-  people:
-    - "Julián D. Arias-Londoño"
-  funding: "MinCiencias"
-  link:    null
-
 - title:   "Data Governance Framework for Higher Education Institutions "
   desc:    >
     Define a conceptual and methodological framework based on the people, processes, 
@@ -86,64 +71,29 @@
   funding: null
   link:    null
 
-- title:   "Deep Learning for Retinal Disease Screening"
+- title:   "Prodromal phospholipid signature of cognitive dysfunction and dementia"
   desc:    >
-    End-to-end convolutional and transformer models for the grading of
-    diabetic retinopathy and age-related macular degeneration from fundus
-    photographs, with emphasis on model interpretability and clinical usability.
+    This project aims to characterize the serum phospholipid profile across distinct stages of AD progression — from presymptomatic to symptomatic phases — using both a triple-transgenic mouse model (3xTg-AD) and human familial AD patients. By mapping phospholipid signatures at defined time points, the study seeks to identify early lipid biomarkers associated with disease onset and progression. These signatures will be correlated with neuroinflammatory and histopathological markers in the hippocampus to establish mechanistic links between peripheral lipid dysregulation and central pathology. Building on these findings, candidate phospholipids will be encapsulated in liposomes to assess, in vitro, the effects of both pathological and protective lipid signatures on astrocyte and microglial activity in co-culture with neurons. Together, this work aims to advance the understanding of phospholipid-driven neuroinflammation in AD and to evaluate liposome-based platforms as potential therapeutic or diagnostic tools for cognitive decline and dementia.
   status:  active
   started: 2022
   ended:   null
-  tags:    [ml, vision, biomedical, healthcare]
+  tags:    [metabolomics, healthcare]
   people:
-    - "Raúl Ramos Pollán"
-    - "Diego J.L. Botia Valderrama"
-    - "Luz Viviana Cobaleda E."
-  funding: "MinCiencias — Colombia Científica"
-  link:    null
-
-- title:   "NLP and Speech Tools for Colombian Spanish"
-  desc:    >
-    Building corpora, language models, and evaluation benchmarks for
-    Colombian Spanish varieties, covering automatic speech recognition,
-    speaker profiling, sentiment analysis, and low-resource NLP.
-  status:  active
-  started: 2020
-  ended:   null
-  tags:    [ml, speech, language-society]
-  people:
+    - "Gloria P. Cardona-Gómez (PI)"
     - "Julián D. Arias-Londoño"
-    - "Ana Lucía Pérez Patiño"
-    - "Danny A. Múnera Ramírez"
   funding: "MinCiencias"
   link:    null
 
-- title:   "Intelligent Monitoring of Industrial Machinery"
+- title:   "Automatic Fraud Detection in Virtual Debit and Credit Card Transactions"
   desc:    >
-    Condition monitoring and predictive maintenance using vibration, acoustic
-    emission, and thermographic signals combined with anomaly detection and
-    remaining-useful-life estimation models.
-  status:  active
-  started: 2023
-  ended:   null
-  tags:    [ml, decision, biomedical, industry]
-  people:
-    - "Carlos A. Mera Banguero"
-    - "Javier F. Botia Valderrama"
-  funding: "Industry partnership"
-  link:    null
-
-- title:   "Computer Vision for Agricultural Quality Control"
-  desc:    >
-    Image acquisition systems and deep learning pipelines for the automated
-    grading of coffee, mango, and avocado crops, developed in partnership
-    with Colombian agricultural cooperatives.
+    Development of machine learning models and continuous learning strategies for the automatic detection of fraudulent transactions in virtual debit and credit card systems.
   status:  completed
-  started: 2020
-  ended:   2024
-  tags:    [vision, ml, agriculture]
+  started: 2016
+  ended:   2018
+  tags:    [ml, cibersecurity, finance]
   people:
-    - "Diego J.L. Botia Valderrama"
-    - "A.J. Tamayo Herrera"
-  funding: "MinAgricultura / MADR"
+    - "Julián D. Arias-Londoño"
+    - "John Freddy Duitama Muñoz"
+    - "Germán Eduardo Melo Acosta"
+  funding: "Ruta N"
   link:    null
