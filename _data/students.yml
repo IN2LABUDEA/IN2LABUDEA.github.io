@@ -35,14 +35,14 @@ current:
       advisor: "Maria Bernarda Salazar Sánchez"
       tags:    [ml, healthcare]
       web:     null
-      scholar: https://scholar.google.com/citations?user=JasmIU4AAAAJ&hl
+      scholar: "https://scholar.google.com/citations?user=JasmIU4AAAAJ&hl"
 
     - name:    "Luis Felipe Buitrago Castro"
       started: 2026
       topic:   "Natural Language Processing"
       advisor: "Maria Bernarda Salazar Sánchez"
       tags:    [nlp, healthcare]
-      web:     https://co.linkedin.com/in/luis-felipe-buitrago-castro-793139164
+      web:     "https://co.linkedin.com/in/luis-felipe-buitrago-castro-793139164"
       scholar: null
 
     - name:    "Wilberth Ferney Córdoba Canchala"
@@ -50,7 +50,7 @@ current:
       topic:   "Uncertainty quantification in deep learning and Trustworthy AI for healthcare applications"
       advisor: "Julián D. Arias-Londoño"
       tags:    [ml, biomedical]
-      web:     https://co.linkedin.com/in/wilberth-ferney-c%C3%B3rdoba-canchala-9734b74b
+      web:     "https://co.linkedin.com/in/wilberth-ferney-c%C3%B3rdoba-canchala-9734b74b"
       scholar: null
 
   masters:
@@ -99,7 +99,7 @@ current:
       started: 2025
       topic:   "Web scraping and NLP for Colombian news corpora"
       advisor: "Danny A. Múnera Ramírez"
-      tags:    [ml, speech, language-society]
+      tags:    [ml, speech]
       web:     null
       scholar: null
 
@@ -153,21 +153,21 @@ former:
     now:    "PhD Student, University College Cork"
     web:    "https://scholar.google.es/citations?user=vE9elOUAAAAJ&hl=es"
 
-- name:   "Andrés Felipe Sanchez Prisco"
+  - name:   "Andrés Felipe Sanchez Prisco"
     degree: "MSc"
     year:   2017
     thesis: "Sistema para la Detección de Intrusos en Plataformas SCADA"
     now:    "University Lecturer, Universidad de Antioquia"
     web:    "https://scholar.google.com/citations?user=pivLaVIAAAAJ&hl"
 
-- name:   "Jonny Alexander Uribe"
+  - name:   "Jonny Alexander Uribe"
     degree: "MSc"
     year:   2012
     thesis: "Diseño e implementación de una aplicación móvil personalizada para el soporte y promoción de la adherencia al tratamiento en pacientes con riesgo cardiovascular"
     now:    "Senior Data Scientist, Valtech"
     web:    "https://co.linkedin.com/in/jonny-alexander-uribe/es"
 
-- name:   "Jesús Andrés Hincapié Londoño"
+  - name:   "Jesús Andrés Hincapié Londoño"
     degree: "MSc"
     year:   2012
     thesis: "Mechanism To Define Target Architectures Independent Of The Model-To-Text Transformations In Model-Driven Web Engineering Methods"
