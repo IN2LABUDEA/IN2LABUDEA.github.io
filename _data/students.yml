@@ -38,28 +38,12 @@ current:
       scholar: "https://scholar.google.com/citations?user=JasmIU4AAAAJ&hl"
 
     - name:    "Luis Felipe Buitrago Castro"
-<<<<<<< HEAD
       started: 2025
       topic:   "Multimodal Models for Tuberculosis Lineage Classification through the Integration of Clinical and Radiographic Data"
       advisor: "Maria B. Salazar-Sánchez"
       tags:    [ml, biomedical, healthcare]
       web:     null
       scholar: "https://scholar.google.com/citations?user=6iJYsIYAAAAJ&hl=es"
-
-  masters:
-    - name:    "Deiner Rivera Soto"
-      started: 2024
-      topic:   "Identification of Predictors of Dengue Severity and Mortality Using Machine Learning Algorithms"
-      advisor: "Maria B. Salazar-Sánchez"
-      tags:    [ml, biomedical, healthcare]
-      web:     null
-=======
-      started: 2026
-      topic:   "Natural Language Processing"
-      advisor: "Maria Bernarda Salazar Sánchez"
-      tags:    [nlp, healthcare]
-      web:     "https://co.linkedin.com/in/luis-felipe-buitrago-castro-793139164"
-      scholar: null
 
     - name:    "Wilberth Ferney Córdoba Canchala"
       started: 2026
@@ -71,12 +55,11 @@ current:
 
   masters:
     - name:    "Deiner Rivera Soto"
-      started: 2023
-      topic:   "Speaker diarization in noisy environments"
-      advisor: "Maria Bernarda Salazar Sánchez"
-      tags:    [ml, healthcare]
-      web:     "https://co.linkedin.com/in/deiner-rivera-soto-64463172?trk=people-guest_people_search-card"
->>>>>>> 3fd6654477f8e68ab551a4444024a54eba3a61e7
+      started: 2024
+      topic:   "Identification of Predictors of Dengue Severity and Mortality Using Machine Learning Algorithms"
+      advisor: "Maria B. Salazar-Sánchez"
+      tags:    [ml, biomedical, healthcare]
+      web:     null
       scholar: null
 
     - name:    "Juan Felipe Gallo Rendón"
