@@ -30,7 +30,7 @@ layout: default
             <span class="news-date">{{ post.date | date: "%b %-d, %Y" }}</span>
             <span>
               {% if post.shortnews %}
-                {{ post.content | strip_html | truncatewords: 30 }}
+                {{ post.content | remove: '<p>' | remove: '</p>' | truncatewords: 30 }}
               {% else %}
                 <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
               {% endif %}
