@@ -20,7 +20,6 @@
   tags:    [ml, biomedical, speech, healthcare]
   people:
     - "Julián D. Arias-Londoño"
-    - "M. Bernarda Salazar Sánchez"
   funding: "MinCiencias"
   link:    null
 
@@ -36,6 +35,55 @@
   people:
     - "Gina P. Maestre Góngora"
   funding: "Universidad de Antioquia — CODI"
+  link:    null
+
+- title:   "Design of an AI-Based Co-Adaptive Control System to Improve Adherence to Myoelectric Transradial Prostheses"
+  desc:    >
+    This project proposes the design of an AI-based co-adaptive control system for myoelectric transradial 
+    prostheses, aimed at improving users’ interaction with and continued use of the prosthesis. The approach 
+    combines user adaptation and system adaptation, allowing the control strategy to progressively adjust
+    to changes in the user’s myoelectric signals, movement patterns, and interaction context. 
+  status:  active
+  started: 2022
+  ended:   null
+  tags:    [ml, biomedical, healthcare]
+  people:
+    - "Maria B. Salazar-Sánchez"
+    - "Sofía C. Henao"
+    - "Daniel Escobar Saltarén"
+  funding: "CODI"
+  link:    null
+
+- title:   "Prediction of Hospital Readmission Risk in Hospitalized Patients"
+  desc:    >
+    This project focuses on developing predictive models to identify hospitalized 
+    patients at increased risk of readmission. Using clinical and demographic data, 
+    machine learning techniques can be applied to characterize patterns associated 
+    with subsequent hospital readmission and estimate individual patient risk.  
+  status:  active
+  started: 2023
+  ended:   null
+  tags:    [ml, biomedical, healthcare]
+  people:
+    - "Maria B. Salazar-Sánchez"
+    - "Angelower Santana"
+  funding: "CODI"
+  link:    null
+
+- title:   "Multimodal Models for Tuberculosis Lineage Classification through the Integration of Clinical and Radiographic Data"
+  desc:    >
+    Development of multimodal machine learning models that integrate clinical and chest radiographic
+    data to classify tuberculosis lineages. The approach aims to exploit complementary information from
+    both data modalities to improve classification performance and provide a more comprehensive characterization of tuberculosis case
+  status:  active
+  started: 2025
+  ended:   null
+  tags:    [ml, biomedical, healthcare, nlp]
+  people:
+    - "Maria B. Salazar-Sánchez"
+    - "Luis Felipe Buitrago"
+    - "Antonio Tamayo"
+  funding: null
   link:    null
 
 - title:   "Deep Learning for Retinal Disease Screening"
