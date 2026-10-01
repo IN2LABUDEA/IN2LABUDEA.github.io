@@ -105,31 +105,38 @@ former:
 
   - name:   "Luz Viviana Cobaleda E."
     degree: "PhD"
-    year:   2027
+    year:   2017
     thesis: "Development of a personalization model for web applications in a context of model-driven development"
     now:    "Professor, Universidad de Antioquia"
     web:    "https://co.linkedin.com/in/luz-viviana-cobaleda-ab468943"
 
-  - name:   "Placeholder Former MSc 1"
-    degree: "MSc"
-    year:   2024
-    thesis: "Lightweight anomaly detection for IoT networks"
-    now:    "Data scientist, Bancolombia"
-    web:    null
+  - name:   "Javier Fernandez Ledesma"
+    degree: "PhD"
+    year:   2016
+    thesis: "Metodología para la construcción y reuso de metaprocesos como activos de software"
+    now:    "Entrepreneur"
+    web:    "https://co.linkedin.com/in/javierfernandez2"
 
-  - name:   "Placeholder Former MSc 2"
+  - name:   "Antonio J. Tamayo Herrera"
     degree: "MSc"
-    year:   2023
-    thesis: "Transfer learning for Colombian Spanish ASR"
-    now:    "NLP Engineer, Rappi"
-    web:    null
+    year:   2018
+    thesis: "Metodología para el análisis automático de sentimientos en documentos a partir de técnicas de aprendizaje automático y lingüística computacional"
+    now:    "Professor, Universidad de Antioquia"
+    web:    "https://co.linkedin.com/in/phd-antonio-tamayo"
 
-  - name:   "Placeholder Former MSc 3"
+  - name:   "Mario Alberto Giraldo Londoño"
     degree: "MSc"
-    year:   2022
-    thesis: "Multi-agent reinforcement learning for energy optimization"
-    now:    "Research engineer, EPM"
-    web:    null
+    year:   2021
+    thesis: "Implementación del algoritmo de SVM en MapReduce"
+    now:    "Data Engineer"
+    web:    "https://www.linkedin.com/in/mario-giraldo-820b2b12/"
+
+  - name:   "German Eduardo Melo Acosta"
+    degree: "MSc"
+    year:   2017
+    thesis: "Metodología para la detección automática de fraude a partir de técnicas supervisadas y semi-supervisadas, bajo condiciones de desbalance de clase"
+    now:    "AI and Data Architect | Data Scientist & ML Engineer | Co-Founder, Centraal Studio"
+    web:    "https://co.linkedin.com/in/germanmelo01"
 
   - name:   "Placeholder Former UG 1"
     degree: "BSc"
