@@ -18,6 +18,66 @@
   pdf:     https://journals.sagepub.com/doi/pdf/10.1177/20552076261420932
   code:    null
 
+- title:   "Intelligence as a Feature: Modeling ML in Software Product Lines"
+  authors: "Cobaleda Luz-Viviana, López Andrés, Vallejo Paola, Mazo Raúl, and Carvajal Julián"
+  venue:   "International Journal of Software Engineering & Applications"
+  year:    2025
+  type:    journal
+  tags:    [software]
+  doi:     10.5121/ijsea.2025.16601     # replace with real DOI
+  pdf:     https://aircconline.com/abstract/ijsea/v16n6/16625ijsea01.html
+  code:    null
+
+- title:   "Herramienta digital para optimizar auditorías basadas en el estándar ISO/IEC 27001: 2022"
+  authors: "Buesaco Sebastián, Alcaraz Gaviria Alejandro, Caiza Narváez Juan José, Marceles Villalba Katerine, and Amador Donado Siler.
+  venue:   "Revista Colombiana de Tecnologías de Avanzada"
+  year:    2025
+  type:    journal
+  tags:    [software, industry, cyberdef]
+  doi:     10.24054/rcta.v2i46.4111      # replace with real DOI
+  pdf:     https://ojs.unipamplona.edu.co/rcta/article/view/4111
+  code:    null
+
+- title:   "Antimicrobial Peptides Design Using Deep Learning and Rational Modifications: Activity in Bacteria, Candida albicans, and Cancer Cells"
+  authors: "Mesa Andrea, Orrego Andrés, Branch-Bedoya John W., Mera-Banguero Carlos, and Orduz Sergio.
+  venue:   "Current Microbiology"
+  year:    2025
+  type:    journal
+  tags:    [ml, bioinformatics, healthcare]
+  doi:     10.1007/s00284-025-04346-3      # replace with real DOI
+  pdf:     https://link.springer.com/article/10.1007/s00284-025-04346-3
+  code:    null
+
+- title:   "Security management model for IoT devices based on international standards"
+  authors: "Escobar Martínez Isabel Socorro, Villalba Katerine Márceles, Collazos Sandoval Edwin Javier, and Amador Donado Siler."
+  venue:   "Ingeniería Solidaria"
+  year:    2025
+  type:    journal
+  tags:    [cyberdef]
+  doi:     10.16925/2357-6014.2025.01.06      # replace with real DOI
+  pdf:     https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://openurl.ebsco.com/fulltext/gcd:187333147%3Fsid%3Debsco:plink:crawler-gcd%26id%3Debsco:gcd:187333147%26crl%3Df%26jrnl%3D19003102&ved=2ahUKEwj5qPyG1ZmXAxXnSjABHeEqIosQFnoECBwQAQ&usg=AOvVaw0UMyoOCHz5SCBIcNi_g9KG
+  code:    null
+
+- title :  "Fortalecimiento de infraestructuras educativas críticas: un enfoque de Red Team y metodologías avanzadas para la evaluación de vulnerabilidades"
+  authors: "Escobar Martínez Isabel Socorro, Villalba Katerine Márceles, and Amador Donado Siler."
+  venue:   "Revista Colombiana de Tecnologías de Avanzada"
+  year:    2025
+  type:    journal
+  tags:    [cyberdef]
+  doi:     10.24054/rcta.v1i45.2966      # replace with real DOI
+  pdf:     https://ojs.unipamplona.edu.co/rcta/article/view/2966?articlesBySimilarityPage=45
+  code:    null
+
+- title:   "Explainable Artificial Intelligence for Tabular Data in Healthcare: A Systematic Review of Methods, Evaluation, and Applications"
+  authors: "Santana-Velásquez Angelower, and Salazar-Sánchez Maria Bernarda."
+  venue:   "Computers"
+  year:    2026
+  type:    journal
+  tags:    [ml, healthcare]
+  doi:     10.3390/computers15080506     # replace with real DOI
+  pdf:     https://www.mdpi.com/2073-431X/15/8/506/pdf
+  code:    null
+
 - title:   "Aggrecan and polymeric immunoglobulin receptor in extracellular vesicles of patients with seropositive rheumatoid arthritis"
   authors: "Castaño-López S., Lopera T.J., Restrepo V., Carbal L.F., Ramírez-Mejía J.M., Hernández A., Gil D., Díaz J.-C. , Manrique-Moreno M., Barazzuol L., Posada-Duque R., Rojas M., Vásquez G., Corrales-Garcia L., Arias-Londoño J.D., Wolters J.C., Castaño D."
   venue:   "Journal of Translational Autoimmunity"
