@@ -21,21 +21,21 @@
 
 current:
   phd:
-    - name:    "Placeholder PhD Student 1"
-      started: 2023
-      topic:   "Deep learning for pathological voice detection"
-      advisor: "Julián D. Arias-Londoño"
-      tags:    [ml, biomedical, speech, healthcare]
+    - name:    "Andrés Orlando López Henao"
+      started: 2024
+      topic:   "Método para la creación de líneas de productos de software intensivos en Inteligencia Artificial"
+      advisor: "Luz Viviana Cobaleda E."
+      tags:    [software]
       web:     null
       scholar: null
 
-    - name:    "Placeholder PhD Student 2"
-      started: 2022
-      topic:   "Federated learning for intrusion detection systems"
-      advisor: "Katerine Marceles Villalba"
+    - name:    "Angelower Santana Velásquez"
+      started: 2023
+      topic:   "Explainability and interpretability of artificial intelligence models in early hospital readmission prediction problems"
+      advisor: "Maria Bernarda Salazar Sánchez"
       tags:    [ml, security, cyberdef]
       web:     null
-      scholar: null
+      scholar: https://scholar.google.com/citations?user=JasmIU4AAAAJ&hl
 
     - name:    "Placeholder PhD Student 3"
       started: 2024
@@ -96,19 +96,19 @@ current:
       scholar: null
 
 former:
-  - name:   "Placeholder Former PhD 1"
+  - name:   "Javier Esteban García Gallo"
     degree: "PhD"
-    year:   2023
-    thesis: "Automatic assessment of dysphonia using machine learning"
-    now:    "Postdoctoral researcher, Universidad Nacional de Colombia"
-    web:    null
+    year:   2019
+    thesis: "A Machine-learning-based Model for the One-year Mortality Prediction in Patients Admitted to an Intensive Care Unit with Diagnosis of Sepsis"
+    now:    "Postdoctoral researcher, ISARIC, Pandemic Sciences Institute, University of Oxford"
+    web:    "https://scholar.google.com/citations?user=bpGYXUUAAAAJ&hl=en"
 
-  - name:   "Placeholder Former PhD 2"
+  - name:   "Luz Viviana Cobaleda E."
     degree: "PhD"
-    year:   2022
-    thesis: "Convolutional architectures for retinal image analysis"
-    now:    "AI Engineer, Clínica Universitaria Bolivariana"
-    web:    null
+    year:   2027
+    thesis: "Development of a personalization model for web applications in a context of model-driven development"
+    now:    "Professor, Universidad de Antioquia"
+    web:    "https://co.linkedin.com/in/luz-viviana-cobaleda-ab468943"
 
   - name:   "Placeholder Former MSc 1"
     degree: "MSc"
