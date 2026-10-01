@@ -32,25 +32,25 @@ current:
     - name:    "Angelower Santana Velásquez"
       started: 2023
       topic:   "Explainability and interpretability of artificial intelligence models in early hospital readmission prediction problems"
-      advisor: "Maria Bernarda Salazar Sánchez"
+      advisor: "Maria B. Salazar-Sánchez"
       tags:    [ml, healthcare]
       web:     null
       scholar: https://scholar.google.com/citations?user=JasmIU4AAAAJ&hl
 
-    - name:    "Placeholder PhD Student 3"
-      started: 2024
-      topic:   "Transformer-based models for medical image segmentation"
-      advisor: "Raúl Ramos Pollán"
-      tags:    [ml, vision, biomedical, healthcare]
+    - name:    "Luis Felipe Buitrago Castro"
+      started: 2025
+      topic:   "Multimodal Models for Tuberculosis Lineage Classification through the Integration of Clinical and Radiographic Data"
+      advisor: "Maria B. Salazar-Sánchez"
+      tags:    [ml, biomedical, healthcare]
       web:     null
-      scholar: null
+      scholar: https://scholar.google.com/citations?user=6iJYsIYAAAAJ&hl=es
 
   masters:
-    - name:    "Placeholder MSc Student 1"
+    - name:    "Deiner Rivera Soto"
       started: 2024
-      topic:   "Speaker diarization in noisy environments"
-      advisor: "Julián D. Arias-Londoño"
-      tags:    [speech, ml]
+      topic:   "Identification of Predictors of Dengue Severity and Mortality Using Machine Learning Algorithms"
+      advisor: "Maria B. Salazar-Sánchez"
+      tags:    [ml, biomedical, healthcare]
       web:     null
       scholar: null
 
