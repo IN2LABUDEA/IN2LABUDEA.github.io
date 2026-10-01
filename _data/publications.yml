@@ -84,7 +84,7 @@
   year:    2022
   type:    preprint
   tags:    [ml, speech]
-  doi:     null
+  doi:     10.48550/arXiv.2205.13657
   pdf:     https://arxiv.org/abs/2205.13657
   code:    null
  
@@ -93,8 +93,8 @@
   venue:   "arXiv"
   year:    2022
   type:    preprint
-  tags:    [ml, data_science]
-  doi:     null
+  tags:    [ml, bigdata]
+  doi:     10.48550/arXiv.2210.04310
   pdf:     https://arxiv.org/abs/2210.04310
   code:    null
 
