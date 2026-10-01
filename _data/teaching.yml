@@ -11,7 +11,7 @@ postgraduate:
         tags: [ml]
         repo: https://rramosp.github.io/2021.deeplearning/
 
-- program: "Especialización en Analítica y Ciencia de Datos"
+  - program: "Especialización en Analítica y Ciencia de Datos"
     courses:
       - code: "2582021"
         title: "Deep Learning"
