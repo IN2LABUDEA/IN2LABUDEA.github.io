@@ -20,23 +20,22 @@ postgraduate:
         tags: [ml]
         repo: https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ingenieria/estudiar-facultad/posgrados/especializacion-analitica-ciencia-datos/Contenido/asMenuLateral/presentacion
   
-   - program: "PhD and MSc in Engineering (Faculty of Engineering)"
-     courses:
-      - code: "2528399"
-        title: "Digital Transformation"
-        level: "Doctoral and Master"
-        semester: "Every term"
-        tags: [digtrans]
-        repo: null
-
-   - program: "Especialización en Gerencia de Mantenimiento (Faculty of Engineering)"
-     courses:
-      - code: "2506836"
-        title: "Information Systems"
-        level: "Specialization"
-        semester: "Every term"
-        tags: [digtrans, governance]
-        repo: https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ingenieria/estudiar-facultad/posgrados/especializacion-analitica-ciencia-datos/Contenido/asMenuLateral/presentacion
+  - program: "PhD and MSc in Engineering (Faculty of Engineering)"
+    courses:
+    - code: "2528399"
+      title: "Digital Transformation"
+      level: "Doctoral and Master"
+      semester: "Every term"
+      tags: [digtrans]
+     
+  - program: "Especialización en Gerencia de Mantenimiento (Faculty of Engineering)"
+    courses:
+    - code: "2506836"
+      title: "Information Systems"
+      level: "Specialization"
+      semester: "Every term"
+      tags: [digtrans, governance]
+      repo: null
 
 
 research_seedbed:
