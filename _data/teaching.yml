@@ -33,10 +33,9 @@ postgraduate:
     - code: "2506836"
       title: "Information Systems"
       level: "Specialization"
-      semester: "Every term"
+      semester: "2026-2"
       tags: [digtrans, governance]
       repo: null
-
 
 research_seedbed:
   name: "In2Lab Research Seedbed"
