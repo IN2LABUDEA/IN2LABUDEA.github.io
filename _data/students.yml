@@ -138,7 +138,7 @@ former:
     thesis: "Clasificación de perturbaciones focalizadas empleando conectividad funcional variante en el tiempo con rs-fmri"
     now:    "Researcher, Sura"
     web:    "https://www.linkedin.com/in/catalina-bustamantea/"
-	
+
   - name:   "Mario Alberto Giraldo Londoño"
     degree: "MSc"
     year:   2021
@@ -187,6 +187,13 @@ former:
     thesis: "Desarrollo de aplicación web para el análisis de datos metabolómicos para el grupo de neurociencias UdeA"
     now:    "Software Engineer, Humand"
     web:    "https://www.linkedin.com/in/juancamilomorales/"
+
+  - name:   "Deiry Sofía Navas Muriel"
+    degree: "BSc"
+    year:   2021
+    thesis: "Análisis del uso de técncias de Machine Learning para la identificación automática de fallas en la prescripción de antibióticos"
+    now:    "AI Engineer"
+    web:    "https://www.linkedin.com/in/deiry-sofia/"
 
   - name:   "Jose Alberto Arango Sánchez"
     degree: "BSc"
