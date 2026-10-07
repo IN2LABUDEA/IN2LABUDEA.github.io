@@ -6,12 +6,18 @@ postgraduate:
     courses:
       - code: "2558006/2508946"
         title: "Fundamentals of Deep Learning"
-        level: "Doctoral"
+        level: "Doctoral and Master"
         semester: "Every term"
         tags: [ml]
         repo: https://rramosp.github.io/2021.deeplearning/
+      
+      - code: "2528399"
+        title: "Digital Transformation"
+        level: "Doctoral and Master"
+        semester: "Every term"
+        tags: [digtrans]
 
-  - program: "Especialización en Analítica y Ciencia de Datos"
+  - program: "Especialización en Analítica y Ciencia de Datos (Faculty of Engineering)"
     courses:
       - code: "2582021"
         title: "Deep Learning"
@@ -20,14 +26,6 @@ postgraduate:
         tags: [ml]
         repo: https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ingenieria/estudiar-facultad/posgrados/especializacion-analitica-ciencia-datos/Contenido/asMenuLateral/presentacion
   
-  - program: "PhD and MSc in Engineering (Faculty of Engineering)"
-    courses:
-    - code: "2528399"
-      title: "Digital Transformation"
-      level: "Doctoral and Master"
-      semester: "Every term"
-      tags: [digtrans]
-     
   - program: "Especialización en Gerencia de Mantenimiento (Faculty of Engineering)"
     courses:
     - code: "2506836"
