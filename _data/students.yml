@@ -132,6 +132,13 @@ former:
     now:    "Professor, Universidad de Antioquia"
     web:    "https://co.linkedin.com/in/phd-antonio-tamayo"
 
+  - name:   "Catalina Andrea Bustamante Arcila"
+    degree: "MSc"
+    year:   2023
+    thesis: "Clasificación de perturbaciones focalizadas empleando conectividad funcional variante en el tiempo con rs-fmri"
+    now:    "Researcher, Sura"
+    web:    "https://www.linkedin.com/in/catalina-bustamantea/"
+	
   - name:   "Mario Alberto Giraldo Londoño"
     degree: "MSc"
     year:   2021
@@ -174,9 +181,51 @@ former:
     now:    "Software Engineer"
     web:    "https://co.linkedin.com/in/jahlon"
 
+  - name:   "Juan Camilo Morales Vanegas"
+    degree: "BSc"
+    year:   2023
+    thesis: "Desarrollo de aplicación web para el análisis de datos metabolómicos para el grupo de neurociencias UdeA"
+    now:    "Software Engineer, Humand"
+    web:    "https://www.linkedin.com/in/juancamilomorales/"
+
+  - name:   "Jose Alberto Arango Sánchez"
+    degree: "BSc"
+    year:   2022
+    thesis: "Separación de hablantes en tiempo real usando técnicas de Deep Learning"
+    now:    "Machine Learning Engineer, Konecta"
+    web:    "https://www.linkedin.com/in/jose-alberto-arango-sanchez-79a337142/"
+
   - name:   "Martín Elias Quintero Osorio"
     degree: "BSc"
     year:   2020
     thesis: "Análisis comparativo de técnicas de deep learning para el reconocimiento de rostros en escenarios abiertos"
     now:    "AI Solutions Architect, Cuemby"
     web:    "https://www.linkedin.com/in/martineliasq/"
+
+  - name:   "Juan Sebastián Peláez Villa"
+    degree: "BSc"
+    year:   2021
+    thesis: "Modelo de predicción de precio de energía en el mercado no regulado usando una arquitectura multimodal basada en técnicas de Deep Learning"
+    now:    "Data Scientist, Klar"
+    web:    "https://www.linkedin.com/in/sebaspvilla/"
+
+  - name:   "Juan David Sanchez Carvajal"
+    degree: "BSc"
+    year:   2018
+    thesis: "Análisis comparativo de Estrategias para la compensación de desbalance en DNNs"
+    now:    "Software Engineer, SoftServe"
+    web:    "https://www.linkedin.com/in/juan-david-sanchez-carvajal-b27000158/"
+
+  - name:   "Juan Felipe Pérez Calle"
+    degree: "BSc"
+    year:   2016
+    thesis: "Evaluación automática de la calidad de voz usando técnicas bayesianas de aprendizaje automático"
+    now:    "Product Manager, Blend"
+    web:    "https://www.linkedin.com/in/juan-felipe-perez-calle/"
+
+  - name:   "Antonio Jesús Tamayo Herrera"
+    degree: "BSc"
+    year:   2015
+    thesis: "Implementación de un modelo de aprendizaje automático para análisis de opinión en artículos de prensa acerca de la pobreza en Colombia"
+    now:    "Professor, Universidad de Antioquia"
+    web:    "https://co.linkedin.com/in/phd-antonio-tamayo"
