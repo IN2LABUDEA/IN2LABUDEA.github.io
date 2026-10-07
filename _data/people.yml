@@ -26,7 +26,7 @@
   role:    researcher
   degree:  "PhD Ingeniería (UNAL, 2012)"
   affil:   "Professor · since 2013"
-  scholar: null
+  scholar: "https://scholar.google.com/citations?user=MqAzq3IAAAAJ"
   web:     null
 
 - name:    "Carlos A. Mera Banguero"
@@ -40,7 +40,7 @@
   role:    researcher
   degree:  "PhD Informatique (U. Paris I, 2016)"
   affil:   "Professor · since 2009"
-  scholar: null
+  scholar: "https://scholar.google.com/citations?user=lD1OxT0AAAAJ"
   web:     null
 
 - name:    "Diego J.L. Botia Valderrama"
@@ -79,14 +79,14 @@
   role:    researcher
   degree:  "MSc Seguridad Informática (U. La Rioja, 2016)"
   affil:   "Professor · since 2023"
-  scholar: null
+  scholar: "https://scholar.google.com/citations?user=8Vl8y4YAAAAJ"
   web:     null
 
 - name:    "Javier F. Botia Valderrama"
   role:    researcher
   degree:  "PhD Ing. Electrónica (UdeA, 2016 · Cum Laude)"
   affil:   "Visiting professor · since 2024"
-  scholar: null
+  scholar: "https://scholar.google.com/citations?user=KJncLKAAAAAJ"
   web:     null
 
 - name:    "Antonio J. Tamayo Herrera"
@@ -100,5 +100,5 @@
   role:    researcher
   degree:  "MSc Matemáticas (U. Puerto Rico, 2008)"
   affil:   "Lecturer · since 2022"
-  scholar: null
+  scholar: "https://scholar.google.com/citations?user=OH3EUDcAAAAJ"
   web:     null
