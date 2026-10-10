@@ -1,7 +1,7 @@
 <nav class="navbar">
   <div class="container">
     <a class="navbar-brand" href="{{ '/' | relative_url }}">
-      <img src="{{ '/assets/img/logo.png' | relative_url }}"
+      <img src="{{ '/assets/img/logo.png' | relative_url }}?v={{ site.time | date: '%s' }}"
            alt="IngySoft · Universidad de Antioquia">
       {{ site.title }}
     </a>
