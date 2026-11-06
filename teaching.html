@@ -1,0 +1,88 @@
+---
+layout: default
+title: Teaching
+---
+<div class="page-header">
+  <div class="container">
+    <h1>Teaching</h1>
+    <p class="lead">Courses supported by In2Lab in postgraduate programs and the research seedbed.</p>
+  </div>
+</div>
+
+<div class="main-content">
+  <div class="container">
+
+    <p>
+      This page lists courses where In2Lab contributes through teaching, mentoring, and open materials.
+      Course entries are placeholders and can be updated each semester.
+    </p>
+
+    <h2 class="section-heading">Postgraduate Programs</h2>
+    {% for program in site.data.teaching.postgraduate %}
+    <article class="project-item">
+      <div class="project-header">
+        <div class="project-title">{{ program.program }}</div>
+      </div>
+      {% if program.courses and program.courses.size > 0 %}
+      <div class="project-people" style="margin-top:.25rem"><strong>Supported courses</strong></div>
+      <div style="margin-top:.5rem;display:grid;gap:.6rem">
+        {% for c in program.courses %}
+        <div style="padding:.65rem .75rem;border:1px solid #d4e8d8;border-radius:4px;background:#fff">
+          <div style="display:flex;justify-content:space-between;gap:.7rem;align-items:flex-start;flex-wrap:wrap">
+            <div>
+              <strong>{{ c.code }}</strong> · {{ c.title }}
+              <div class="project-meta" style="margin:.2rem 0 0">{{ c.level }}{% if c.semester %} · Semester: {{ c.semester }}{% endif %}</div>
+            </div>
+            <div>
+              {% if c.repo %}
+              <a href="{{ c.repo }}" class="person-link" target="_blank" rel="noopener">GitHub repo ↗</a>
+              {% else %}
+              <span class="person-link unavailable">GitHub repo</span>
+              {% endif %}
+            </div>
+          </div>
+          {% include tag-pill.html tags=c.tags %}
+        </div>
+        {% endfor %}
+      </div>
+      {% else %}
+      <p style="color:#888;margin-top:.5rem">No courses listed yet.</p>
+      {% endif %}
+    </article>
+    {% endfor %}
+
+    <h2 class="section-heading" style="margin-top:2rem">Research Seedbed</h2>
+    <article class="project-item">
+      <div class="project-header">
+        <div class="project-title">{{ site.data.teaching.research_seedbed.name }}</div>
+      </div>
+
+      {% assign seed_courses = site.data.teaching.research_seedbed.courses %}
+      {% if seed_courses and seed_courses.size > 0 %}
+      <div style="margin-top:.25rem;display:grid;gap:.6rem">
+        {% for c in seed_courses %}
+        <div style="padding:.65rem .75rem;border:1px solid #d4e8d8;border-radius:4px;background:#fff">
+          <div style="display:flex;justify-content:space-between;gap:.7rem;align-items:flex-start;flex-wrap:wrap">
+            <div>
+              <strong>{{ c.code }}</strong> · {{ c.title }}
+              <div class="project-meta" style="margin:.2rem 0 0">{{ c.level }}{% if c.semester %} · Semester: {{ c.semester }}{% endif %}</div>
+            </div>
+            <div>
+              {% if c.repo %}
+              <a href="{{ c.repo }}" class="person-link" target="_blank" rel="noopener">GitHub repo ↗</a>
+              {% else %}
+              <span class="person-link unavailable">GitHub repo</span>
+              {% endif %}
+            </div>
+          </div>
+          {% include tag-pill.html tags=c.tags %}
+        </div>
+        {% endfor %}
+      </div>
+      {% else %}
+      <p style="color:#888;margin-top:.5rem">No seedbed courses listed yet.</p>
+      {% endif %}
+    </article>
+
+  </div>
+</div>

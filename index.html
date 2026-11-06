@@ -30,7 +30,7 @@ layout: default
             <span class="news-date">{{ post.date | date: "%b %-d, %Y" }}</span>
             <span>
               {% if post.shortnews %}
-                {{ post.content | strip_html | truncatewords: 30 }}
+                {{ post.content | markdownify | remove: '<p>' | remove: '</p>' }}
               {% else %}
                 <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
               {% endif %}
@@ -65,7 +65,7 @@ layout: default
       <div class="col-4">
 
         <div class="sidebar-logo">
-          <img src="{{ '/assets/img/logo.png' | relative_url }}"
+          <img src="{{ '/assets/img/logo.png' | relative_url }}?v={{ site.time | date: '%s' }}"
                alt="IngySoft · Universidad de Antioquia">
         </div>
 
@@ -99,7 +99,7 @@ layout: default
           </tr>
           <tr>
             <th>Location</th>
-            <td>Medellín, Colombia</td>
+            <td>Office 21-316, Ciudad Universitaria, Medellín, Colombia</td>
           </tr>
           <tr>
             <th>Active since</th>
