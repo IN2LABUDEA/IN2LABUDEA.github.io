@@ -38,6 +38,36 @@
   pdf:     https://doi.org/10.21203/rs.3.rs-9357482/v1
   code:    null
 
+- title: "Demand Forecasting for Audio Products and Musical Instruments"
+  authors: "Carvajal Mellizo J.C., Carvajal Mellizo C.A., Bernal Gutiérrez N., Salazar-Sánchez M.B."
+  venue: "2026 IEEE Colombian Conference on Applications of Computational Intelligence (ColCACI)"
+  year: 2026
+  type: conference
+  tags: [ml, time-series, industry]
+  doi: "10.1109/ColCACI71483.2026.11691364"
+  pdf: "https://ieeexplore.ieee.org/abstract/document/11691364/"
+  code: null
+
+- title: "Breast Cancer Classification: A Statistical Evaluation of Dimensionality Reduction"
+  authors: "González Jaramillo A.F., Vélez Chaverra J.C., Buitrago Castro L.F., Salazar-Sánchez M.B."
+  venue: "2026 IEEE Colombian Conference on Applications of Computational Intelligence (ColCACI)"
+  year: 2026
+  type: conference
+  tags: [ml, biomedical]
+  doi: "10.1109/ColCACI71483.2026.11691464"
+  pdf: "https://ieeexplore.ieee.org/abstract/document/11691464/"
+  code: null
+
+- title: "Predicción de readmisiones hospitalarias en pacientes adultos aplicando técnicas de aprendizaje automático"
+  authors: "Rivera-Soto D.A., Salazar-Sánchez M.B., Hernández-Arango A., Santana-Velásquez A."
+  venue: "Biomédica"
+  year: 2026
+  type: journal
+  tags: [ml, biomedical]
+  doi: "10.7705/biomedica.8027"
+  pdf: "https://revistabiomedica.org/index.php/biomedica/article/view/8027/6099"
+  code: null
+
 - title:   "Guest Editorial: Modeling and Processing Language and Speech in Neurodegenerative Disorders"
   authors: "Godino-Llorente J.I., Arias-Londoño J.D., Hasegawa-Johnson M., Meng H., Shattuck-Hufnagel S."
   venue:   "IEEE Journal of Selected Topics in Signal Processing"

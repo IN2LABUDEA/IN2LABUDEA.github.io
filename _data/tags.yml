@@ -91,6 +91,9 @@ areas:
   - id:    Government
     label: "Government"
 
+  - id: time-series
+    label: "Time Series Analysis & Forecasting"
+
 products:
   - id:    preprint
     label: "PREPRINT"
